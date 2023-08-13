@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_dock">
+    <Cost>
+    <Resources>
+      <wood>200</wood>
+      <stone>200</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="19.0" depth="29.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_iber_dock</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>lusi</Civ>
+    <SpecificName>Kai</SpecificName>
+    <VisibleClasses datatype="tokens">Merc_Dock</VisibleClasses>
+    <Requirements><Techs datatype="tokens">phase_town</Techs></Requirements>
+    <Icon>structures/dock_merc.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="18.0" depth="27.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/lusitanians/factora_cart.xml</Actor>
+    <FoundationActor>structures/fndn_dock_iber.xml</FoundationActor>
+  </VisualActor>
+</Entity>
