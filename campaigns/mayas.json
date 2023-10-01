@@ -1,0 +1,28 @@
+{
+	"Name": "Mayas Ajaw Ascession",
+	"Description": "A campaign about Mayas",
+	"Interface": "default_menu",
+	"Levels": {
+		"Mayas_1": {
+			"Name": "Novo Ajaw (50 BC)",
+			"Map": "scenarios/Mayas_c1.xml",
+			"MapType": "scenario"
+		},
+		"Mayas_2": {
+			"Map": "scenarios/Mayas_c2.xml",
+			"MapType": "scenario",
+			"Requires": "Mayas_1"
+		},
+		"Mayas_3": {
+			"Map": "scenarios/Mayas_c3.xml",
+			"MapType": "scenario",
+			"Requires": "Mayas_2"
+		}
+	},
+	"Order": [
+		"Mayas_1",
+		"Mayas_2",
+		"Mayas_3"
+	],
+	"ShowUnavailable": true
+}

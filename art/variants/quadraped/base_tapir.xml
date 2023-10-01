@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variant name="Base" frequency="1">
+    <animations>
+        <animation file="quadraped/animal_tapir_idle_01.dae" name="Idle" id="idle1" speed="80"/>
+        <animation file="quadraped/animal_tapir_idle_01.dae" name="Idle" id="idle2" speed="80"/>
+        <animation file="quadraped/animal_tapir_idle_01.dae" name="Idle" id="idle3" speed="80"/>
+        <animation file="quadraped/animal_tapir_idle_01.dae" name="Idle" id="idle4" speed="80"/>
+        <animation file="quadraped/animal_tapir_walk_01.dae" name="Walk" speed="120"/>
+        <animation file="quadraped/animal_tapir_walk_01.dae" name="Run" speed="8"/>
+        <animation file="quadraped/animal_tapir_idle_01.dae" name="Death" id="death1" speed="90"/>
+        <animation file="quadraped/animal_tapir_idle_01.dae" name="Death" id="death2" speed="90"/>
+    </animations>
+</variant>

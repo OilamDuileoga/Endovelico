@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>    
+  <group>
+    <variant frequency="1" name="1">
+      <mesh>props/shield/maya_shield_r.dae</mesh>
+    </variant>
+  </group>
+   <group>
+    <variant frequency="1" name="variante1">
+      <textures>
+        <texture file="props/shield/maya_shield_r_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+	<variant frequency="1" name="variante2">
+      <textures>
+	    <texture file="props/shield/maya_shield_s_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    	<variant frequency="1" name="variante3">
+      <textures>
+	    <texture file="props/shield/maya_shield_s_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+    	<variant frequency="1" name="variante4">
+      <textures>
+	    <texture file="props/shield/maya_shield_s_d.png" name="baseTex"/>
+      </textures>
+    </variant>
+    	<variant frequency="1" name="variante5">
+      <textures>
+	    <texture file="props/shield/maya_shield_r_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+    	<variant frequency="1" name="variante6">
+      <textures>
+	    <texture file="props/shield/maya_shield_s_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -48,11 +48,6 @@
         <prop actor="props/units/standards/formation_flag_kush.xml" attachpoint="root"/>
       </props>
     </variant>
-    <variant name="lusi">
-      <props>
-        <prop actor="props/units/standards/formation_flag_lusi.xml" attachpoint="root"/>
-      </props>
-    </variant>
     <variant name="mace">
       <props>
         <prop actor="props/units/standards/formation_flag_mace.xml" attachpoint="root"/>
@@ -86,6 +81,11 @@
     <variant name="spart">
       <props>
         <prop actor="props/units/standards/formation_flag_spart.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant name="yayo">
+      <props>
+        <prop actor="props/units/standards/formation_flag_yayo.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

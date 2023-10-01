@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>gara</Civ>
+    <GenericName>Garamantians</GenericName>
+    <History>The Garamantians of North Africa.</History>
+    <Icon>emblems/gara.png</Icon>
+  </Identity>
+</Entity>

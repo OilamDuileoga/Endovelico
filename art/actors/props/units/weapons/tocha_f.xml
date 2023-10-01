@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Flaming Torch">
+      <mesh>props/weapon/tocha_f.dae</mesh>
+      <props>
+        <prop actor="particle/flame_firepit_1.xml" attachpoint="1"/>
+        <prop actor="particle/smoke_small_light.xml" attachpoint="1"/>
+      </props>
+      <textures>
+        <texture file="structural/maya_struct.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>

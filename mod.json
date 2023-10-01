@@ -1,8 +1,8 @@
 {
-	"name": "Lusitanos_civ",
-	"version": "0.0.03",
-	"label": "0 A.D. lusitanos",
+	"name": "Endovelico",
+	"version": "0.0.01",
+	"label": "0 A.D. Endovelico",
 	"url": "",
-	"description": "lusitanos.",
+	"description": "New civs.",
 	"dependencies": ["0ad=0.0.27"]
 }

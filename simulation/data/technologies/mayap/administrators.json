@@ -1,0 +1,24 @@
+{
+	"genericName": "Administrators",
+	"specificName": {
+		"mayap": "Aj Sul"
+	},
+	"description": "Local nobility were recruited to act as administrators to improve organization.",
+	"cost": {
+		"wood": 250,
+		"metal": 250
+	},
+	"requirements": {
+		"all": [
+			{ "civ": "mayap" }
+		]
+	},
+	"icon": "administrators.png",
+	"researchTime": 40,
+	"tooltip": "Civic Structures −20% build time and resources cost",
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.75 }
+	],
+	"affects": ["Civic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

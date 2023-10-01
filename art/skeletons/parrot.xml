@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="parrot" id="parrot">
+    <bone name="head" />
+    <bone name="chest">
+      <bone name="tale1">
+        <bone name="tale2" />
+      </bone>
+    </bone>
+    <bone name="rwing1">
+      <bone name="rwing2">
+        <bone name="rwing3" />
+      </bone>
+    </bone>
+    <bone name="rctrl" />
+    <bone name="bone.ik" />
+    <bone name="bone.pole" />
+    <bone name="lwing1">
+      <bone name="lwing2">
+        <bone name="lwing3" />
+      </bone>
+    </bone>
+    <bone name="lctrl" />
+    <bone name="bone.ik.001" />
+    <bone name="bone.pole.001" />
+    <bone name="Cylinder" />
+  </standard_skeleton>
+  <skeleton title="parrot" target="parrot">
+    <identifier>
+      <root>head</root>
+    </identifier>
+    <bone name="head">
+      <target>head</target>
+    </bone>
+    <bone name="chest">
+      <target>chest</target>
+      <bone name="tale1">
+        <target>tale1</target>
+        <bone name="tale2">
+          <target>tale2</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="rwing1">
+      <target>rwing1</target>
+      <bone name="rwing2">
+        <target>rwing2</target>
+        <bone name="rwing3">
+          <target>rwing3</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="rctrl">
+      <target>rctrl</target>
+    </bone>
+    <bone name="bone.ik">
+      <target>bone.ik</target>
+    </bone>
+    <bone name="bone.pole">
+      <target>bone.pole</target>
+    </bone>
+    <bone name="lwing1">
+      <target>lwing1</target>
+      <bone name="lwing2">
+        <target>lwing2</target>
+        <bone name="lwing3">
+          <target>lwing3</target>
+        </bone>
+      </bone>
+    </bone>
+    <bone name="lctrl">
+      <target>lctrl</target>
+    </bone>
+    <bone name="bone.ik.001">
+      <target>bone.ik.001</target>
+    </bone>
+    <bone name="bone.pole.001">
+      <target>bone.pole.001</target>
+    </bone>
+    <bone name="Cylinder">
+      <target>Cylinder</target>
+    </bone>
+  </skeleton>
+</skeletons>

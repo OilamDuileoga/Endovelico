@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <props>
+        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>
+        <texture file="structural/maya_protoclassic_struct_norm.png" name="normTex"/>
+        <texture file="structural/maya_protoclassic_struct_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="1">
+      <mesh>structural/maya_protoclassic/templomaior_1.dae</mesh>
+      <textures>
+        <texture file="structural/ao/mayap/templomaior_1.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="2">
+      <mesh>structural/maya_protoclassic/templomaior_2.dae</mesh>
+      <textures>
+        <texture file="structural/ao/mayap/templomaior_2.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="ungarrisoned" frequency="1"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_maya_protoclassic.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_medium.xml"/>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

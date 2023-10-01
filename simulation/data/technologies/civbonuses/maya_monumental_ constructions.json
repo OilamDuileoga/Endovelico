@@ -1,0 +1,14 @@
+{
+	"genericName": "Maya Monumental Architecture",
+	"autoResearch": true,
+	"description": "The Maya created great structures of stone and lime of great resistance.",
+	"requirements": { "civ": "maya" },
+	"icon": "ionic_column.png",
+	"tooltip": "Structures +10% health, +20 time and +5% capture points.",
+	"modifications": [
+		{ "value": "Capturable/CapturePoints", "multiply": 1.1 },
+		{ "value": "Cost/BuildTime", "multiply": 1.2 },
+		{ "value": "Health/Max", "multiply": 1.05 }
+	],
+	"affects": ["Structure !Wonder"]
+}
