@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="house_1">
-      <mesh>structural/lusi_new_house_1.dae</mesh>
+      <mesh>structural/lusi/new_house_1.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
@@ -14,7 +14,7 @@
        <texture file="structural/ao/lusi_new_house_1_AO.png" name="aoTex"/>
       </textures>
     </variant>    <variant frequency="1" name="house_2">
-      <mesh>structural/lusi_new_house_2.dae</mesh>
+      <mesh>structural/lusi/new_house_2.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
@@ -26,7 +26,7 @@
       </textures>
     </variant>
         <variant frequency="1" name="house_3">
-      <mesh>structural/lusi_new_house_3.dae</mesh>
+      <mesh>structural/lusi/new_house_3.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
@@ -38,7 +38,7 @@
       </textures>
     </variant>
         <!-- <variant frequency="1" name="house_4">
-      <mesh>structural/lusi_house_4.dae</mesh>
+      <mesh>structural/lusi/house_4.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>

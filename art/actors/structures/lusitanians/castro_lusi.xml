@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="wonder">
-      <mesh>structural/lusi_new_castro.dae</mesh>
+      <mesh>structural/lusi/new_castro.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
@@ -34,5 +34,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="factora">
-      <mesh>structural/lusi_cart_feitoria_new.dae</mesh>
+      <mesh>structural/lusi/cart_feitoria_new.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>
@@ -34,5 +34,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

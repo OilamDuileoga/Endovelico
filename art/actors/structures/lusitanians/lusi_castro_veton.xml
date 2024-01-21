@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="castro_veton">
-      <mesh>structural/lusi_castro_veton.dae</mesh>
+      <mesh>structural/lusi/castro_veton.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>

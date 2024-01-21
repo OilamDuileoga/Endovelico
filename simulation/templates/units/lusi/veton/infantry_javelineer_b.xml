@@ -12,7 +12,6 @@
   <Identity>
     <Civ>lusi</Civ>
     <SelectionGroupName>units/lusi/infantry_javelinist_b</SelectionGroupName>
-    <GenericName>Veton javelineer</GenericName>
     <SpecificName>Iovanan Secias</SpecificName>
     <Icon>units/iber/infantry_javelinist.png</Icon>
   </Identity>

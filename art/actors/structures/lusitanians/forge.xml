@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="forge">
-      <mesh>structural/lusi_new_forge.dae</mesh>
+      <mesh>structural/lusi/new_forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire_1"/> 

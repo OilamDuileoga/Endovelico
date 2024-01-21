@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="new" file="structures/defensive_building.xml">
-      <mesh>structural/lusi_wall_tower.dae</mesh>
+      <mesh>structural/lusi/wall_tower.dae</mesh>
       <textures>
         <texture file="structural/lusi_struct_new.png" name="baseTex"/>
         <texture file="structural/lusi_struct_new_spec.png" name="specTex"/>

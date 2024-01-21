@@ -4,7 +4,7 @@
   <float/>
   <group>
     <variant frequency="100" name="lusi fishing boat a">
-      <mesh>structural/lusi_balsa_a.dae</mesh>
+      <mesh>structural/lusi/balsa_a.dae</mesh>
       <props>
 <!--         <prop actor="units/lusitanians/fisherman.xml" attachpoint="fisherman"/>
         <prop actor="" attachpoint="fish_a"/>
@@ -16,7 +16,7 @@
       </textures>
     </variant>
         <variant frequency="100" name="lusi fishing boat b">
-      <mesh>structural/lusi_balsa_b.dae</mesh>
+      <mesh>structural/lusi/balsa_b.dae</mesh>
       <props>
 <!--         <prop actor="units/lusitanians/fisherman.xml" attachpoint="fisherman"/>
         <prop actor="" attachpoint="fish_a"/>

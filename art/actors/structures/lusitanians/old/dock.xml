@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="factora">
-      <mesh>structural/lusi_dock.dae</mesh>
+      <mesh>structural/lusi/dock.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>

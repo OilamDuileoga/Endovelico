@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="forge">
-      <mesh>structural/lusi_sauna.dae</mesh>
+      <mesh>structural/lusi/sauna.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="structures/lusitanians/sauna_water.xml" attachpoint="root"/>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="cc">
-      <mesh>structural/lusi_new_cc.dae</mesh>
+      <mesh>structural/lusi/new_cc.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>

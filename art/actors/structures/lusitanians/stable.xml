@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="stable">
-      <mesh>structural/lusi_stable_new.dae</mesh>
+      <mesh>structural/lusi/stable_new.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
         <prop actor="structures/lusitanians/water_stable_new.xml" attachpoint="root"/>

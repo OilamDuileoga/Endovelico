@@ -40,7 +40,11 @@
     </variant>
   </group>
   <group>
-    <variant name="alive" frequency="1"/>
+    <variant name="alive" frequency="1">
+      <props>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+      </props>
+    </variant>
     <variant name="death">
       <props>
         <prop actor="particle/destruction_smoke_small.xml" attachpoint="dust"/>

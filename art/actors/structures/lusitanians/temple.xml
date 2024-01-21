@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="forge">
-      <mesh>structural/lusi_new_temple.dae</mesh>
+      <mesh>structural/lusi/new_temple.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
        <prop actor="structures/lusitanians/temple_water.xml" attachpoint="root"/>
@@ -42,5 +42,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

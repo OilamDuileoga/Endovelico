@@ -14,7 +14,7 @@
   </group>
   <group>
     <variant frequency="1" name="wall_med">
-      <mesh>structural/yayoi_wall_short.dae</mesh>
+<mesh>structural/yayoi/wall_short.dae</mesh>
     </variant>
   </group>
   <group>

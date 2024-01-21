@@ -2,8 +2,8 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>lusi</Civ>
-    <SpecificName>Leial Zalduneria</SpecificName>
     <SelectionGroupName>units/lusi/champion_cavalry</SelectionGroupName>
+    <SpecificName>Leial Zalduneria</SpecificName>
     <Icon>units/iber/champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>

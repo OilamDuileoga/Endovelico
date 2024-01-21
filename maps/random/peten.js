@@ -63,6 +63,7 @@ const heightPlayer = heightScale(10);
 const oTiger = "gaia/fauna_jaguar";
 const oBoar = "gaia/fauna_boar";
 const oFox = "gaia/fauna_fox_gray";
+const oBuzzard = "birds/fauna_parrot";
 
 
 const g_Map = new RandomMap(0, g_Terrains.mainTerrain);
@@ -100,6 +101,17 @@ for (let i = 0; i < scaleByMapSize(5, 12); ++i)
 		"constraints": new HeightConstraint(-Infinity, heightShallow)
 	});
 }
+
+g_Map.log("Creating buzzard");
+createObjectGroupsDeprecated(
+	new SimpleGroup(
+		[new SimpleObject(oBuzzard, 1, 2, 0, 4)],
+		true, clFood
+	),
+	0,
+	avoidClasses(clFood,1),
+	scaleByMapSize(4, 12), 50
+);
 
 g_Map.log("Creating jaguar");
 createObjectGroupsDeprecated(

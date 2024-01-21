@@ -11,7 +11,9 @@
     <SpecificName>Epones Secias</SpecificName>
     <SelectionGroupName>units/lusi/cavalry_swordsman_merc_b</SelectionGroupName>
     <Icon>units/cart_cavalry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/lusi/veton/cavalry_swordsman_merc_a</Entity>

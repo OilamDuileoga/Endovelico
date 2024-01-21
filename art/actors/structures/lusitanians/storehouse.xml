@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="cc">
-      <mesh>structural/lusi_new_storehouse.dae</mesh>
+      <mesh>structural/lusi/new_storehouse.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_5x5.xml" attachpoint="root"/>
       </props>

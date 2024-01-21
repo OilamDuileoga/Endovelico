@@ -5,16 +5,9 @@
     <variant frequency="1" name="new">
       <mesh>structural/garamantians/forge.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-        <prop actor="particle/flame_firepit_2.xml" attachpoint="fire"/>
-        <prop actor="props/structures/hellenes/blacksmith_barrel.xml" attachpoint="f_barr_1"/>
-        <prop actor="props/structures/hellenes/blacksmith_barrel.xml" attachpoint="f_barr_2"/>
-        <prop actor="props/structures/hellenes/blacksmith_barrel.xml" attachpoint="f_barr_3"/>
-        <prop actor="props/structures/romans/blacksmith_bucket.xml" attachpoint="f_buc_1"/>
-        <prop actor="props/structures/romans/blacksmith_bucket.xml" attachpoint="f_buc_2"/>
-        <prop actor="props/structures/hellenes/blacksmith_spears.xml" attachpoint="f_spe_1"/>
-        <prop actor="props/structures/hellenes/blacksmith_spears.xml" attachpoint="f_spe_2"/>
-        <prop actor="props/structures/hellenes/blacksmith_spears.xml" attachpoint="f_spe_3"/> 
+        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="fire"/>
       </props>
       <textures>
         <texture file="structural/gara_struct.png" name="baseTex"/>
@@ -28,7 +21,7 @@
     <variant frequency="1" name="ungarrisoned"/>
     <variant name="garrisoned">
       <props>
-        <prop actor="props/special/common/garrison_flag_hele.xml" attachpoint="garrisoned"/>
+        <prop actor="props/special/common/garrison_flag_gara.xml" attachpoint="garrisoned"/>
       </props>
     </variant>
   </group>

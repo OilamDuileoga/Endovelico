@@ -4,7 +4,7 @@
   <float/>
   <group>
     <variant frequency="1" file="others/ships/kush_bireme_oars.xml" name="Kushite Trireme">
-      <mesh>structural/yayoi_ship_bireme.dae</mesh>
+<mesh>structural/yayoi/ship_bireme.dae</mesh>
       <props>
         <prop actor="props/units/siege_artillery/bolt_projectile_med.xml" attachpoint="projectile"/>
       </props>
