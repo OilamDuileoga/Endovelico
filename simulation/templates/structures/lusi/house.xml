@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Footprint>
+    <Square disable=""/>
+    <Circle radius="6.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>lusi</Civ>
+    <SpecificName>Treb</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/lusitanians/house.xml</Actor>
+  </VisualActor>
+</Entity>

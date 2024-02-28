@@ -1,0 +1,10 @@
+{
+	"type": "player",
+	"affects": ["Citizen Infantry"],
+	"affectedPlayers": ["MutualAlly"],
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.1 }
+	],
+	"auraName": "Sacbé roads",
+	"auraDescription": "Paved Avenues All infantry units move 10% faster compared to other factions or enemy factions"
+}

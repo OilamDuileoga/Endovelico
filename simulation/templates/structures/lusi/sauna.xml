@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <Auras datatype="tokens">
+    structures/sauna
+  </Auras>
+  <BuildRestrictions>
+    <Category>Sauna</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <stone>200</stone>
+      <metal>50</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="18.0" depth="18.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Health>
+    <Max>2000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>lusi</Civ>
+    <GenericName>Sauna</GenericName>
+    <SpecificName>Bormano</SpecificName>
+    <Classes datatype="tokens">-ConquestCritical CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">Town Sauna</VisibleClasses>
+    <Requirements><Techs datatype="tokens">phase_town</Techs></Requirements>
+    <Icon>structures/lusi_sauna.png</Icon>
+  </Identity>
+  <Loot>
+    <stone>60</stone>
+    <metal>20</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="16.0" depth="16.0"/>
+  </Obstruction>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_temple_10.xml</select>
+      <constructed>interface/complete/building/complete_iber_monument.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <TerritoryInfluence>
+    <Root>false</Root>
+    <Radius>30</Radius>
+    <Weight>30000</Weight>
+  </TerritoryInfluence>
+  <Vision>
+    <Range>30</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>structures/lusitanians/sauna.xml</Actor>
+    <FoundationActor>structures/fndn_4x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

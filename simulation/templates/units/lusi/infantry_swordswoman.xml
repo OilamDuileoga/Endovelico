@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/lusi/castro
+      structures/lusi/merc_camp
+      structures/lusi/sauna
+      structures/lusi/dock_merc
+    </Entities>
+  </Builder>
+
+  <Identity>
+    <Civ>lusi</Civ>
+    <Phenotype>female</Phenotype>
+    <VisibleClasses datatype="tokens">Lusitaniswordswomen</VisibleClasses>
+    <SelectionGroupName>units/lusi/swordswoman</SelectionGroupName>
+    <SpecificName>Petanim Cori</SpecificName>
+    <Icon>units/lusi_swordwoman.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+<!--    <TrainingRestrictions>
+    <Category>Lusitaniswordswomen</Category>
+  </TrainingRestrictions> -->
+   <Upgrade>
+     <SwitchToSword>
+      <Entity>units/lusi/support_female_citizen</Entity>
+      <Tooltip>Switch back to female citizens</Tooltip>
+    <Requirements><Techs datatype="tokens">phase_town</Techs></Requirements>
+      <Cost>
+        <food>10</food>
+      </Cost>
+      <Time>5</Time>
+    </SwitchToSword>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/lusitanians/infantry_swordswoman.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="b1">
+      <mesh>props/shield/shield_flex.dae.dae</mesh>
+    </variant>
+  </group>
+    <group>
+    <variant frequency="1" name="texture2">
+      <textures><texture file="props/maya_shilds.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

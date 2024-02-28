@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.0.1</authoring_tool>
+    </contributor>
+    <created>2022-05-07T15:12:18</created>
+    <modified>2022-05-07T15:12:18</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="armas_mayas_002-effect">
+      <profile_COMMON>
+        <newparam sid="TEXTURAS_armas_y_escudos_mayas_png-surface">
+          <surface type="2D">
+            <init_from>TEXTURAS_armas_y_escudos_mayas_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="TEXTURAS_armas_y_escudos_mayas_png-sampler">
+          <sampler2D>
+            <source>TEXTURAS_armas_y_escudos_mayas_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="TEXTURAS_armas_y_escudos_mayas_png-sampler" texcoord="MapaUV"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="armas_mayas_002-material" name="armas mayas.002">
+      <instance_effect url="#armas_mayas_002-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cubo_160-mesh" name="Cubo.160">
+      <mesh>
+        <source id="Cubo_160-mesh-positions">
+          <float_array id="Cubo_160-mesh-positions-array" count="48">-0.02946907 -0.1039559 2.594177 -0.02942079 0.004905283 2.264449 -0.02770173 0.01307517 2.92704 0.02443325 -0.1041011 2.594279 0.02448207 0.004853248 2.264475 0.02620118 0.01302319 2.927066 0.02493864 0.1056337 2.589954 -0.02896368 0.1057788 2.589852 -0.0520159 -0.05255478 -1.888516 -0.0520159 -0.05255478 2.534147 -0.05215358 0.02718615 -1.870337 -0.05215358 0.02718615 2.552326 0.05201596 -0.05255478 -1.888516 0.05201596 -0.05255478 2.534147 0.05187827 0.02718615 -1.870337 0.05187827 0.02718615 2.552326</float_array>
+          <technique_common>
+            <accessor source="#Cubo_160-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_160-mesh-normals">
+          <float_array id="Cubo_160-mesh-normals-array" count="48">0.5430541 0.007110893 -0.8396677 -0.6435545 -0.765356 0.008240103 -0.5433049 0.008240163 -0.839495 -0.6475536 0.761939 -0.01110893 0.6387596 -0.7693803 0.006347894 -0.5409107 0.03009128 0.8405417 0.6506139 0.7592937 -0.01321488 0.5449178 0.02887099 0.8379923 -0.5894808 -0.6316584 0.5035079 -0.5906389 0.6306497 -0.5034149 -0.5659863 -0.5142556 -0.6443607 -0.5669519 0.5135131 0.644104 0.5894808 0.6316584 -0.5035079 0.5906389 -0.6306497 0.5034149 0.5669519 -0.5135131 -0.644104 0.5659863 0.5142556 0.6443607</float_array>
+          <technique_common>
+            <accessor source="#Cubo_160-mesh-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cubo_160-mesh-map-0">
+          <float_array id="Cubo_160-mesh-map-0-array" count="144">0.4143971 0.7371974 0.3647593 0.692896 0.413448 0.687411 0.3679148 0.7435768 0.3782958 0.6945313 0.3792261 0.7422904 0.4018486 0.7397177 0.4122295 0.6906725 0.4131598 0.7384315 0.3896071 0.693245 0.4018486 0.7397177 0.3905373 0.7410041 0.4070196 0.6917959 0.3709612 0.7411523 0.3700996 0.695955 0.3782958 0.6945313 0.3905373 0.7410041 0.3792261 0.7422904 0.2969478 0.9956278 0.3085193 0.977981 0.3084539 0.9958659 0.2970133 0.9777429 0.3085848 0.9600961 0.3085193 0.977981 0.3085848 0.9600961 0.2971443 0.9419731 0.3086503 0.9422112 0.2971443 0.9419731 0.3087158 0.9243263 0.3086503 0.9422112 0.2440694 0.6040479 0.2312415 0.6459521 0.2312415 0.6040479 0.2568973 0.6040479 0.2697253 0.6459521 0.2568973 0.6459521 0.4143971 0.7371974 0.3657084 0.7426823 0.3647593 0.692896 0.3679148 0.7435768 0.3669846 0.6958176 0.3782958 0.6945313 0.4018486 0.7397177 0.4009183 0.6919587 0.4122295 0.6906725 0.3896071 0.693245 0.4009183 0.6919587 0.4018486 0.7397177 0.4070196 0.6917959 0.4078812 0.7369931 0.3709612 0.7411523 0.3782958 0.6945313 0.3896071 0.693245 0.3905373 0.7410041 0.2969478 0.9956278 0.2970133 0.9777429 0.3085193 0.977981 0.2970133 0.9777429 0.2970788 0.959858 0.3085848 0.9600961 0.3085848 0.9600961 0.2970788 0.959858 0.2971443 0.9419731 0.2971443 0.9419731 0.2972097 0.9240882 0.3087158 0.9243263 0.2440694 0.6040479 0.2440694 0.6459521 0.2312415 0.6459521 0.2568973 0.6040479 0.2697253 0.6040479 0.2697253 0.6459521</float_array>
+          <technique_common>
+            <accessor source="#Cubo_160-mesh-map-0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cubo_160-mesh-vertices">
+          <input semantic="POSITION" source="#Cubo_160-mesh-positions"/>
+        </vertices>
+        <triangles material="armas_mayas_002-material" count="24">
+          <input semantic="VERTEX" source="#Cubo_160-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cubo_160-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cubo_160-mesh-map-0" offset="2" set="0"/>
+          <p>4 0 0 0 1 1 1 2 2 0 1 3 7 3 4 1 2 5 3 4 6 2 5 7 0 1 8 6 6 9 3 4 10 4 0 11 6 6 12 2 5 13 5 7 14 7 3 15 4 0 16 1 2 17 9 8 18 10 9 19 8 10 20 11 11 21 14 12 22 10 9 23 14 12 24 13 13 25 12 14 26 13 13 27 8 10 28 12 14 29 14 12 30 8 10 31 10 9 32 15 15 33 9 8 34 13 13 35 4 0 36 3 4 37 0 1 38 0 1 39 2 5 40 7 3 41 3 4 42 5 7 43 2 5 44 6 6 45 5 7 46 3 4 47 6 6 48 7 3 49 2 5 50 7 3 51 6 6 52 4 0 53 9 8 54 11 11 55 10 9 56 11 11 57 15 15 58 14 12 59 14 12 60 15 15 61 13 13 62 13 13 63 9 8 64 8 10 65 14 12 66 12 14 67 8 10 68 15 15 69 11 11 70 9 8 71</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="spear_lenca" name="spear_lenca" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 0.8342395 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cubo_160-mesh" name="spear_lenca">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="armas_mayas_002-material" target="#armas_mayas_002-material">
+                <bind_vertex_input semantic="MapaUV" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

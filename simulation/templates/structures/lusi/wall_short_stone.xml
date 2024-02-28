@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Auras datatype="tokens">
+    pedras_fincadas
+    pedras_fincadas_2
+  </Auras>
+  <Footprint>
+    <Square width="13" depth="8"/>
+    <Height>10</Height>
+  </Footprint>
+  <Identity>
+    <Civ>lusi</Civ>
+    <SpecificName>Zabal Horma</SpecificName>
+  </Identity>
+  <Obstruction>
+   <Static width="2" depth="2"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>11</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/lusitanians/wall_short_stones.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="b1">
+      <mesh>props/armor/back_bahkab_1.dae</mesh>
+      <textures>
+        <texture file="props/maya_weapons.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="100" name="b2">
+      <mesh>props/armor/back_bahkab_2.dae</mesh>
+      <textures>
+        <texture file="props/maya_weapons.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="100" name="b3">
+      <mesh>props/armor/back_bahkab_3.dae</mesh>
+      <textures>
+        <texture file="props/maya_weapons.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="100" name="b4">
+      <mesh>props/armor/back_bahkab_4.dae</mesh>
+      <textures>
+        <texture file="props/maya_weapons.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

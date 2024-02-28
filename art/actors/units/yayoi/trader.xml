@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/base_trader.xml">
+      <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/yayoi_isw_e.xml" attachpoint="head"/>
+        <prop actor="props/units/backpack_celt.xml" attachpoint="back"/>
+        <prop actor="props/units/weapons/trader_staff.xml" attachpoint="weapon_L"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Tunic-01-01">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/yayoi/tunic_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-02-01">
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/yayoi/tunic_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-Pants-01-01">
+      <mesh>skeletal/new/m_pants_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/yayoi/tunic_pants_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-Pants-02-01">
+      <mesh>skeletal/new/m_tunic_pants_short_short_sleeves.dae</mesh>
+      <textures>
+        <texture file="skeletal/yayoi/tunic_pants_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml">
+    </variant>
+  </group> 
+  <material>player_trans_norm_spec.xml</material>
+</actor>

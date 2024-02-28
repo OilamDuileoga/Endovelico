@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>structural/maya_protoclassic/palacio.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
+        <prop actor="props/structures/maya_protoclassic/palace_masks.xml" attachpoint="root" />
+        <prop actor="props/structures/maya_protoclassic/maya_standards.xml" attachpoint="st1"/>
+        <prop actor="props/structures/maya_protoclassic/maya_standards.xml" attachpoint="st2"/>
+        <prop actor="props/structures/maya_protoclassic/maya_standards.xml" attachpoint="st3"/>
+        <prop actor="props/structures/maya_protoclassic/maya_standards.xml" attachpoint="st4"/>
+        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s1" maxheight="10" minheight="-20"/>
+        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s2" maxheight="10" minheight="-20"/>
+        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s3" maxheight="10" minheight="-20"/>
+        <prop actor="props/structures/maya_protoclassic/maya_stelae.xml" attachpoint="s4" maxheight="10" minheight="-20"/>
+      </props>
+      <textures>
+        <texture file="structural/maya_protoclassic_struct.png" name="baseTex"/>
+        <texture file="structural/maya_protoclassic_struct_norm.png" name="normTex"/>
+        <texture file="structural/maya_protoclassic_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/mayap/palacio.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="ungarrisoned" frequency="1"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_maya_protoclassic.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_medium.xml"/>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

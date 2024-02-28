@@ -1,0 +1,23 @@
+{
+	"genericName": "Incendiary  Weapons",
+	"description": "The use of fire in Mesoamerican warfare is attested to by archaeological evidence.",
+	"cost": {
+		"metal": 100,
+		"wood": 700
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" },
+			{ "civ": "mayap" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "incendiary_weapons.png",
+	"researchTime": 50,
+	"tooltip": "Soldiers with fire attack +200% fire damage.",
+	"modifications": [
+		{ "value": "Attack/Ranged/ApplyStatus/Burning/Damage/Fire", "multiply": 3.0 }
+	],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

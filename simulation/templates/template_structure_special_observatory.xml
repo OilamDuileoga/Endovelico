@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+  <Auras datatype="tokens">
+    structures/library
+  </Auras>
+  <BuildRestrictions>
+    <Category>Library</Category>
+  </BuildRestrictions>
+  <Cost>
+    <BuildTime>200</BuildTime>
+    <Resources>
+      <stone>200</stone>
+      <metal>200</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="25.0" depth="25.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x6</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Temple type group-E</GenericName>
+    <Tooltip>Research special technologies.</Tooltip>
+    <Icon>structures/library_scroll.png</Icon>
+  </Identity>
+  <Loot>
+    <stone>40</stone>
+    <metal>40</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+    <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+     mayap/calendario_haab
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_temple.xml</select>
+      <constructed>interface/complete/building/complete_temple.xml</constructed>
+    </SoundGroups>
+  </Sound>
+  <VisualActor>
+    <FoundationActor>structures/fndn_9x9.xml</FoundationActor>
+  </VisualActor>
+</Entity>

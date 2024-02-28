@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>lusi</Civ>
+    <SpecificName>Arimo</SpecificName>
+    <GenericName>Noble Infantry</GenericName>
+    <Icon>units/iber/champion_infantry.png</Icon>
+    <SelectionGroupName>units/lusi/champion_infantry</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/lusitanians/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

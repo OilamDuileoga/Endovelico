@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="helmeta">
+      <mesh>props/helmet/lusi_helmet_couro_a.dae</mesh>
+    </variant> 
+    <variant frequency="1" name="helmetb">
+      <mesh>props/helmet/lusi_helmet_couro_b.dae</mesh>
+    </variant> 
+    <variant frequency="1" name="helmetc">
+      <mesh>props/helmet/lusi_helmet_couro_c.dae</mesh>
+    </variant> 
+  </group>
+  <group>
+    <variant frequency="1" name="helmet1">
+      <textures>
+        <texture file="props/helmet/lusi_h_c_1.png" name="baseTex"/>
+        <texture file="props/helmet/ptol_romanized_norm.png" name="normTex"/>
+        <texture file="props/helmet/ptol_romanized_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="helmet2">
+      <textures>
+        <texture file="props/helmet/lusi_h_c_2.png" name="baseTex"/>
+        <texture file="props/helmet/ptol_romanized_norm.png" name="normTex"/>
+        <texture file="props/helmet/ptol_romanized_spec.png" name="specTex"/>
+      </textures>
+    </variant> 
+    <variant frequency="1" name="helmet3">
+      <textures>
+        <texture file="props/helmet/lusi_h_c_3.png" name="baseTex"/>
+        <texture file="props/helmet/ptol_romanized_norm.png" name="normTex"/>
+        <texture file="props/helmet/ptol_romanized_spec.png" name="specTex"/>
+      </textures>
+    </variant> 
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

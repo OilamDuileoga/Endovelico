@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_spearman">
+  <Identity>
+    <Civ>lusi</Civ>
+    <SelectionGroupName>units/lusi/champion_cavalry</SelectionGroupName>
+    <SpecificName>Leial Zalduneria</SpecificName>
+    <Icon>units/iber/champion_cavalry.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/lusitanians/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

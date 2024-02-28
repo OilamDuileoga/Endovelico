@@ -1,0 +1,22 @@
+{
+	"genericName": "Absolute Power",
+	"specificName": {
+		"mayap": "Chum il"
+	},
+	"cost": {
+		"metal": 400,
+		"stone": 200
+	},
+	"requirements": {
+		"tech": "phase_city"
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "ascessao_gorvenante.png",
+	"researchTime": 40,
+	"tooltip": "Heros +20% health.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.2}
+	],
+	"affects": ["Hero"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
