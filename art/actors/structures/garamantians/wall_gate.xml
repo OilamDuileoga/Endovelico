@@ -11,7 +11,7 @@
         <texture file="structural/gara_struct.png" name="baseTex"/>
         <texture file="structural/gara_struct_norm.png" name="normTex"/>
         <texture file="structural/gara_struct_spec.png" name="specTex"/>
-        <texture file="structural/ao/garamantians/wal_gate_AO.png" name="aoTex"/>
+        <texture file="structural/ao/garamantians/wall_gate_AO.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

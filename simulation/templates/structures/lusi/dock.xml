@@ -18,9 +18,7 @@
     <Technologies datatype="tokens">
       fishing_boat_gather_rate
       fishing_boat_gather_capacity
-      -ship_cost_time
       -ship_health
-      -ship_movement_speed
       -equine_transports
     </Technologies>
   </Researcher>

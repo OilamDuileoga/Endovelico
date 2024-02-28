@@ -15,9 +15,7 @@
     <Technologies datatype="tokens">
       mayap/ship_trade_mesoamerican_cabotage
       mayap/ship_trade_shells
-      -ship_cost_time
       -ship_health
-      -ship_movement_speed
     </Technologies>
   </Researcher>
   <Trainer>
