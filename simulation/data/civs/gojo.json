@@ -1,0 +1,74 @@
+﻿{
+    "Code": "gojo",
+    "Culture":[ "gojoseon"],
+    "Region": [
+        "Asia"
+    ],
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/gojo/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/gojo/civil_centre"
+        },
+        {
+            "Template": "units/gojo/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/gojo/infantry_swordsman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/gojo/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/gojo/cavalry_archer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/gojo/cavalry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Bu Hae",
+        "Bu",
+        "Chun",
+        "Wi Man Seong",
+        "Ugeo",
+        "Yeon Ta-bal",
+        "Haemosu",
+        "Geumwa",
+        "Daeso",
+        "Dongmyeong",
+        "Yuri",
+        "Onjo",
+        "Hyeokgeose Geoseogan",
+        "Ijinasi de Daegaya",
+        "Ari Daero",
+        "Choe Ri"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/gojo/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/gojo/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/gojo/infantry_archer_b",
+        "skirmish/units/default_cavalry_ranged_b": "units/gojo/cavalry_archer_b",
+        "skirmish/units/default_ship_trireme": "units/gojo/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

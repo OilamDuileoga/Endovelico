@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_warship_scout">
+  <Identity>
+    <Civ>gojo</Civ>
+    <GenericName>Gojoseon War Boat</GenericName>
+    <SpecificName>Byeong-seon</SpecificName>
+    <History>.</History>
+    <Icon>units/hele/ship_scout.png</Icon>
+  </Identity>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x512/cartouche.png</MainTexture>
+        <MainTextureMask>128x512/cartouche_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <VisualActor>
+    <Actor>structures/han/bireme.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,86 @@
+{
+    "Code": "sarma",
+    "Culture": [
+        "Nomadic"
+    ],
+    "Region": [
+        "Asia",
+        "Steppes"
+    ],
+    "Music": [
+        {
+            "File": "As_Seasons_Change.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Bandit_Country.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Cradle_of_Civilization.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Mirage.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Solstice_Festival.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Upstart_King.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/sarma/civil_centre"
+        },
+        {
+            "Template": "units/sarma/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/sarma/cavalry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/sarma/cavalry_axeman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/sarma/support_wagon"
+        },
+        {
+            "Template": "units/sarma/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Amage (Queen of the Sarmatas, c. century II B.C.)",
+        "Saitapharnes (King of the Sarmatas Reais)",
+        "Gatalos (King of the Sarmatas, c. century II B.C.)",
+        "Tasius (Leader of the Iazyges, c. 20 A.D.)",
+        "Zorsines (King of the Siraces, c. 49 A.D.)",
+        "Eunones (King of the Aorsi, c. 49 A.D.)",
+        "Pharasmanes (King of the Iazyges, c. 50-70 d.C.",
+        "Banadaspus (King of the Iazyges, c. 92 d.C.)",
+        "Susagus (Queen/Chieftainess of the Sarmatas, c. century I-II d.C.)",
+        "Rasparaganus (King of the Roxolani/Royal Sarmatians, c. 110 d.C.? m. 140 d.C.)"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_infantry_ranged_b": "units/sarma/cavalry_archer_b",
+        "skirmish/units/default_infantry_melee_b": "units/sarma/cavalry_axeman_b",
+        "skirmish/units/default_cavalry": "units/sarma/cavalry_scout",
+        "skirmish/units/special_starting_unit": "units/sarma/support_wagon",
+        "skirmish/structures/default_corral": "structures/sarma/stable",
+        "skirmish/structures/default_farmstead": "structures/sarma/storehouse",
+        "skirmish/structures/default_defense_tower": "structures/sarma/outpost",
+        "skirmish/structures/default_house_5": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
+}

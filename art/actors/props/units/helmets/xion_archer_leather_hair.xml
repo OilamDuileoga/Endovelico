@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base_a">
+      <mesh>props/helmet/xion_helmet_hair.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="base">
+      <textures>
+        <texture file="props/helmet/ptol_romanized_brass.png" name="baseTex"/>
+        <texture file="props/helmet/ptol_romanized_norm.png" name="normTex"/>
+        <texture file="props/helmet/ptol_romanized_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

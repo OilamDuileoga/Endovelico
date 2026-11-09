@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Footprint>
+    <Square width="13.5" depth="13.5"/>
+    <Height>5.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>aden</Civ>
+    <SpecificName></SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="13.0" depth="13.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/adena/storehouse.xml</Actor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
+  </VisualActor>
+</Entity>

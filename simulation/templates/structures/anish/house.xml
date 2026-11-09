@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Footprint replace="">
+    <Circle radius="8.0"/>
+    <Height>18.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>anish</Civ>
+    <Phenotype datatype="tokens">
+      Tipi
+    </Phenotype>
+    <SpecificName>Tipi</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="10.0" depth="10.0"/>
+  </Obstruction>
+  <Upgrade>
+    <TravoisDog>
+      <Entity>units/anish/support_wagon</Entity>
+      <Time>10</Time>
+      <Tooltip>Pack this house into a Dog Travois to move it across the map.</Tooltip>
+      <CheckPlacementRestrictions/>
+    </TravoisDog>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/anishinaabe/house.xml</Actor>
+    <FoundationActor>structures/fndn_3x3_round.xml</FoundationActor>
+  </VisualActor>
+</Entity>

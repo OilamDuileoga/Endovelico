@@ -1,0 +1,121 @@
+{
+	"Description": {
+		"Title": "Amazon",
+		"Description": "The largest rainforest on Earth. A dense, humid canopy of towering trees and palms closes over muddy ground and dark rivers. Peccaries, tapirs and brocket deer move through the undergrowth, while curassows and tinamous forage near the villages."
+	},
+	"Environment": {
+		"SkySet": "cumulus",
+		"SunColor": {
+			"r": 1.03,
+			"g": 0.99,
+			"b": 0.86
+		},
+		"SunElevation": 0.95,
+		"SunRotation": -0.6,
+		"AmbientColor": {
+			"r": 0.4,
+			"g": 0.44,
+			"b": 0.44
+		},
+		"Water": {
+			"WaterBody": {
+				"Color": {
+					"r": 0.2,
+					"g": 0.17,
+					"b": 0.1
+				},
+				"Tint": {
+					"r": 0.34,
+					"g": 0.3,
+					"b": 0.16
+				},
+				"Murkiness": 0.93,
+				"Waviness": 1.5
+			}
+		},
+		"Fog": {
+			"FogThickness": 0.0,
+			"FogFactor": 0.0045,
+			"FogColor": {
+				"r": 0.8,
+				"g": 0.86,
+				"b": 0.82
+			}
+		},
+		"Postproc": {
+			"PostprocEffect": "hdr",
+			"Saturation": 1.05,
+			"Contrast": 1.0,
+			"Bloom": 0.16
+		}
+	},
+	"Terrains": {
+		"mainTerrain": [
+			"tropic_grass_c",
+			"tropic_grass_d",
+			"tropic_grass_plants",
+			"tropic_plants_b"
+		],
+		"forestFloor1": "tropic_forestfloor_a",
+		"forestFloor2": "tropic_plants_c",
+		"cliff": [
+			"tropic_cliff_a_plants",
+			"tropic_cliff_b_plants",
+			"tropic_cliff_grass"
+		],
+		"tier1Terrain": "tropic_grass_plants",
+		"tier2Terrain": "tropic_plants",
+		"tier3Terrain": "tropic_grass_e",
+		"tier4Terrain": "tropic_dirt_a_plants",
+		"hill": [
+			"tropic_dirt_b_plants",
+			"tropic_cliff_mud"
+		],
+		"dirt": [
+			"tropic_dirt_a",
+			"tropic_dirt_b",
+			"tropic_mud_a"
+		],
+		"road": "tropic_citytile_a",
+		"roadWild": "tropic_citytile_plants",
+		"shoreBlend": "tropic_swamp_a",
+		"shore": "tropic_mud_a",
+		"water": "tropic_mud_a"
+	},
+	"Gaia": {
+		"tree1": "gaia/tree/tropic_rainforest",
+		"tree2": "gaia/tree/strangler",
+		"tree3": "gaia/tree/toona",
+		"tree4": "gaia/tree/palm_tropic",
+		"tree5": "gaia/tree/palm_tropical",
+		"fruitBush": "gaia/fruit/banana",
+		"startingAnimal": "gaia/fauna_curassow",
+		"mainHuntableAnimal": "gaia/fauna_peccary",
+		"secondaryHuntableAnimal": "gaia/fauna_tapir",
+		"fish": "gaia/fish/generic",
+		"stoneLarge": "gaia/rock/tropical_large",
+		"stoneSmall": "gaia/rock/tropical_small",
+		"metalLarge": "gaia/ore/tropical_large",
+		"metalSmall": "gaia/ore/tropical_small",
+		"smallAnimal": "gaia/fauna_paca",
+		"predator": "gaia/fauna_jaguar_02"
+	},
+	"Decoratives": {
+		"grass": "actor|props/flora/grass_tropic_field_tall.xml",
+		"grassShort": "actor|props/flora/plant_tropic_a.xml",
+		"reeds": "actor|props/flora/reeds_pond_lush_b.xml",
+		"lillies": "actor|props/flora/water_lillies.xml",
+		"rockLarge": "actor|geology/stones_tropic_large.xml",
+		"rockMedium": "actor|geology/stone_tropic_cubic_weathered.xml",
+		"bushMedium": "actor|flora/trees/tropic_bush_biome.xml",
+		"bushSmall": "actor|props/flora/plant_tropic_large.xml",
+		"tree": "actor|flora/trees/palm_nipa.xml"
+	},
+	"ResourceCounts": {
+		"trees": {
+			"min": 2000,
+			"max": 6000,
+			"forestProbability": 0.85
+		}
+	}
+}

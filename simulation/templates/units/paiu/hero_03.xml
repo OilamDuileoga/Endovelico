@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/matriarch
+  </Auras>
+  <Identity>
+    <Civ>paiu</Civ>
+    <Phenotype>female</Phenotype>
+    <GenericName>Thocmetony, Shell Flower</GenericName>
+    <SpecificName>Thocmetony</SpecificName>
+    <SelectionGroupName>units/paiu/hero_rain_lord</SelectionGroupName>
+    <Icon>units/paiu/hero_matriarch.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/paiute/hero_03_f.xml</Actor>
+  </VisualActor>
+</Entity>

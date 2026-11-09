@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Cost>
+    <Resources>
+      <metal op="add">25</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>numi</Civ>
+    <Lang></Lang>
+    <GenericName>Numidian Legionary</GenericName>
+    <Rank>Elite</Rank>
+    <Icon>units/numi/champion_infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Loot>
+    <metal op="add">3</metal>
+  </Loot>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/numidians/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

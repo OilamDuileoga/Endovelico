@@ -1,0 +1,58 @@
+﻿{
+    "Code": "tupi",
+    "Culture":[ "Tupis"],
+    "Region": [
+        "America",
+        "Amazonia"
+    ],
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/tupi/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/tupi/civil_centre"
+        },
+        {
+            "Template": "units/tupi/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/tupi/infantry_maceman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/tupi/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/tupi/infantry_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Maíra",
+        "Sumé",
+        "Tamandaré",
+        "Ariconte"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/tupi/infantry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/tupi/infantry_maceman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/tupi/infantry_archer_b",
+        "skirmish/units/default_ship_trireme": "units/tupi/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

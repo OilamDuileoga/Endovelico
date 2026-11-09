@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/warrior_high_priest
+  </Auras>
+  <Identity>
+    <Civ>tupi</Civ>
+    <GenericName>Chief Cunhambebe</GenericName>
+    <SpecificName>Morubixaba Kunhambeba</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/tupi/hero_jaguar_king</SelectionGroupName>
+    <Icon>units/tupi/hero_zarabatana.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/tupis/hero_infantry_blowgunner.xml</Actor>
+  </VisualActor>
+</Entity>

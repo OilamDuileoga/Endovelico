@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+  <Identity>
+    <Civ>lenc</Civ>
+    <GenericName>Mota, War Chief of Cares</GenericName>
+    <SpecificName>Mota</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
+    <Icon>units/lenc/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/lencas/hero_infantry_maceman.xml</Actor>
+  </VisualActor>
+</Entity>

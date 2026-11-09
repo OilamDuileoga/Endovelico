@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="a1">
+      <mesh>props/helmet/new/helmet_olmec_1.dae</mesh>
+      <textures>
+        <texture file="props/maya_weapons.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="100" name="b2">
+      <mesh>props/helmet/new/helmet_olmec_2.dae</mesh>
+      <textures>
+        <texture file="props/maya_weapons.png" name="baseTex"/>
+      </textures>
+    </variant>
+     <variant frequency="100" name="c3">
+      <mesh>props/helmet/new/helmet_olmec_3.dae</mesh>
+      <textures>
+        <texture file="props/maya_weapons.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>cyre</Civ>
+    <GenericName>Cyrene</GenericName>
+    <History>Greek-founded colony in Libya (c. 631 BC). Thrived as a fertile agricultural hub exporting silphium, a medicinal herb. Featured major cities like Cyrene, with Hellenistic temples and philosophers. Became a Roman province in 74 BC after Ptolemaic rule, supplying grain to Rome.</History>
+    <Icon>emblems/emblem_cyre.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

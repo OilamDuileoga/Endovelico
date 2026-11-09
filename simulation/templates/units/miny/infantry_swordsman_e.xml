@@ -1,0 +1,9 @@
+<Entity parent="units/miny/infantry_swordsman_a">
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+<Actor>units/minyue/infantry_swordsman_e.xml</Actor>
+  </VisualActor>
+</Entity>

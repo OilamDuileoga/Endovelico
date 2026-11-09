@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero">
+  <Auras datatype="tokens">
+    units/heroes/jude_hero_salome1
+    units/heroes/jude_hero_salome2
+  </Auras>
+  <Attack>
+    <Capture>
+      <AttackName>Capture</AttackName>
+      <Capture>40</Capture>
+      <MaxRange>20</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">Palisade</RestrictedClasses>
+    </Capture>
+  </Attack>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+
+  <Identity>
+    <Civ>hasmo</Civ>
+    <GenericName>Salome Alexandra</GenericName>
+    <SpecificName>Shelomtzion</SpecificName>
+    <Icon>units/hasmo/hero_salome.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hasmoneans/hero_salome.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_swordsman">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>mauret</Civ>
+    <GenericName>Bocchus I</GenericName>
+    <SpecificName>Bokkus</SpecificName>
+    <Icon>units/mauret/hero_bocchus.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauretania/hero_cavalry_swordsman_m.xml</Actor>
+  </VisualActor>
+</Entity>

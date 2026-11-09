@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_javelineer">
+  <Identity>
+    <Civ>mand</Civ>
+    <GenericName>Sunjata Keita, the Lion King</GenericName>
+    <SpecificName>Sunjata Keyita</SpecificName>
+    <Icon>units/mand/hero_01.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mande/hero_cavalry_javelineer_m.xml</Actor>
+  </VisualActor>
+</Entity>

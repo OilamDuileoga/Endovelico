@@ -1,0 +1,78 @@
+﻿{
+	"Code": "cyre",
+	"Culture":[ "hellenic"],
+	"Music": [
+		{
+			"File": "Harvest_Festival.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forging_a_City-State.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Highland_Mist.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/cyre/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/cyre/civil_centre"
+		},
+		{
+			"Template":"units/cyre/support_civilian",
+			"Count":5
+		},
+		{
+			"Template": "units/cyre/infantry_spearman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/cyre/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/cyre/cavalry_spearman_b",
+			"Count": 1
+		}
+	],
+
+	"AINames":
+	[
+
+	"Bato I",
+	"Arcesilau I",
+	"Bato II",
+	"Arcesilau II",
+	"Bato III",
+	"Arcesilau III",
+	"Bato IV",
+	"Arcesilau IV",
+	"Magas",
+	"Demetrio",
+	"Berenice II"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/cyre/cavalry_spearman_b",
+		"skirmish/units/default_infantry_melee_b": "units/cyre/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/cyre/infantry_javelineer_b",
+	  "skirmish/units/default_ship_trireme":"units/cyre/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

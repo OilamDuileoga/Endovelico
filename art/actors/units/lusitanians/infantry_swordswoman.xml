@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_lusi_fem_1.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/lusitanians_buckler_basic.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sheath_falcata_e.xml" attachpoint="sheath_01_L"/>
+      </props>
+      <textures>
+        <texture file="skeletal/spart/female_01_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+      </textures> 
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="tunic-1a">
+      <textures>
+        <texture file="skeletal/units/lusi_swordswoman_1.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="1" name="tunic-4a">
+      <textures>
+        <texture file="skeletal/units/lusi_swordswoman_4.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="1" name="tunic-2a">
+      <textures>
+        <texture file="skeletal/units/lusi_swordswoman_2.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="1" name="tunic-3a">
+      <textures>
+        <texture file="skeletal/units/lusi_swordswoman_3.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_swordsman_shield_fast.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

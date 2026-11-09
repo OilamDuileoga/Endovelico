@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+    <Civ>aden</Civ>
+    <SelectionGroupName>units/aden/infantry_archer_b</SelectionGroupName>
+    <GenericName>Adena Archer</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/aden/infantry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/aden/infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/adena/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

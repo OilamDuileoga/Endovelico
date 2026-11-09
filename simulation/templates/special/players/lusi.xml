@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>lusi</Civ>
+    <GenericName>Lusitans</GenericName>
+    <History>The Lusitanians were an Indo-European speaking people living in the west of the Iberian Peninsula prior to its conquest by the Roman Republic and the subsequent incorporation of the territory into the Roman province of Lusitania.</History>
+    <Icon>emblems/emblem_lusitanians.png</Icon>
+  </Identity>
+</Entity>

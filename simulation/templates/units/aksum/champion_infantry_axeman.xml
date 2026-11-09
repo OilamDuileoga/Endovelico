@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_axeman">
+  <Identity>
+    <Civ>aksum</Civ>
+    <GenericName>Aksumite Royal Guard</GenericName>
+    <SpecificName>ʿAqābe Nəguś</SpecificName>
+    <Icon>units/aksum/champion_infantry_axeman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/aksumites/infantry_champion_axeman.xml</Actor>
+  </VisualActor>
+</Entity>

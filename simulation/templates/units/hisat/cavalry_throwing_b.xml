@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_cavalry_range_throwing">
+  <Identity>
+    <Civ>hisat</Civ>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/hisatsinom/cavalry_axeman_b</SelectionGroupName>
+    <GenericName>Rabbit Stick Thrower</GenericName>
+    <SpecificName>Putskoho</SpecificName>
+    <Icon>units/hisat/cavalry_throwing.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/hisatsinom/infantry_heavy_boomerang.xml</Actor>
+  </VisualActor>
+</Entity>

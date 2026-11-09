@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Builder>
+    <Entities datatype="tokens">
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>sao</Civ>
+
+    <GenericName>Sao Villager</GenericName>
+    <Icon>units/sao/support_civilian.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/sao/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

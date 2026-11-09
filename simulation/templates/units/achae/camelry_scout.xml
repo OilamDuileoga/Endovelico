@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_mount_javelineer">
+  <Identity>
+    <Civ>achae</Civ>
+    <Lang>persian</Lang>
+    <GenericName>Achaemenid Camelry Scout</GenericName>
+    <SpecificName>Achaemenid Scout</SpecificName>
+    <VisibleClasses datatype="tokens">Camel</VisibleClasses>
+    <Icon>units/achae/camelry_scout.png</Icon>
+  </Identity>
+  <Sound>
+    <SoundGroups>
+      <select>actor/fauna/animal/camel_select.xml</select>
+      <order_walk>actor/fauna/movement/camel_order.xml</order_walk>
+      <death>actor/fauna/death/death_camel.xml</death>
+    </SoundGroups>
+  </Sound>
+  <StatusBars>
+    <HeightOffset>8.5</HeightOffset>
+  </StatusBars>
+  <UnitMotion>
+    <WalkSpeed op="mul">0.85</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/achaemenids/camelry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

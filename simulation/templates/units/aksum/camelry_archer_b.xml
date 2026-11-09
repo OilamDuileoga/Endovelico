@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="camelry|template_unit_cavalry_ranged_archer">
+  <Identity>
+    <Civ>aksum</Civ>
+    <SelectionGroupName>units/aksum/camelry_archer_b</SelectionGroupName>
+    <GenericName>Aksumite Camel Archer</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/aksum/camelry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/aksum/camelry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/aksumites/camelry_archer_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,23 @@
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Identity>
+    <Civ>yuez</Civ>
+    <GenericName>Yuezhi Noble Horse Archer</GenericName>
+    <SelectionGroupName>units/yuez/champion_cavalry_archer</SelectionGroupName>
+    <Icon>units/xion/champion_cavalry.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">
+        unlock_champion_units_xion
+      </Techs>
+    </Requirements>
+  </Identity>
+  <Upgrade>
+    <Melee>
+      <Entity>units/yuez/champion_cavalry</Entity>
+      <Time>10</Time>
+      <Tooltip>Switch Weapon.</Tooltip>
+    </Melee>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/xiongnu/cavalry_archer_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/great_war_chief
+  </Auras>
+  <Identity>
+    <Civ>tupi</Civ>
+    <GenericName>Chief Aimberê</GenericName>
+    <SpecificName>Morubixaba Aimberé</SpecificName>
+    <SelectionGroupName>units/tupi/hero_night_king</SelectionGroupName>
+    <Icon>units/tupi/hero_archer.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/tupis/hero_infantry_archer.xml</Actor>
+  </VisualActor>
+</Entity>

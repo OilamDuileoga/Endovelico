@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="elephant_african|template_unit_champion_elephant_melee">
+  <Identity>
+    <Civ>mauret</Civ>
+    <GenericName>Towered North African War Elephant</GenericName>
+    <Icon>units/mauret/champion_elephant_range.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauretania/elephantry_archer_m.xml</Actor>
+  </VisualActor>
+</Entity>

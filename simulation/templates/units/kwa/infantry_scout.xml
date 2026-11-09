@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_infantry_archer">
+  <Identity>
+    <Civ>kwa</Civ>
+    <GenericName>Kwa Scout</GenericName>
+    <Icon>units/kwa/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kwa/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

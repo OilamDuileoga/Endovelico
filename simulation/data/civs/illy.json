@@ -1,0 +1,79 @@
+﻿{
+    "Code": "illy",
+    "Culture":[ "illyrians"],
+    "Region": [
+        "Europe"
+    ],
+    "Music": [
+        {
+            "File": "Harvest_Festival.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sunrise.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/illy/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/illy/civil_centre"
+        },
+        {
+            "Template": "units/illy/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/illy/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/illy/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/illy/cavalry_spearman_b"
+        },
+        {
+            "Template": "units/illy/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Agron",
+        "Ballaios",
+        "Bardylis",
+        "Triteuta",
+        "Artas",
+        "Audata",
+        "Etuta",
+        "Caeria",
+        "Bircena",
+        "Bato the Breucian",
+        "Bato the Dardanian",
+        "Bato the Daesitiate",
+        "Grabos I",
+        "Sirrhas",
+        "Grabos II",
+        "Pleuratus I",
+        "Pleurias",
+        "Bardyllis II",
+        "Glaucias",
+        "Monounios",
+        "Mytilus",
+        "Pleuratus II",
+        "Skerdilaid",
+        "Pinnius",
+        "Pleuratus III",
+        "Gentius"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/illy/cavalry_scout",
+        "skirmish/structures/default_house_5": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
+}

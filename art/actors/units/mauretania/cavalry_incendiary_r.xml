@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_kho.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/tocha_f.xml" attachpoint="weapon_L"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="robes_04_01">
+      <textures>
+        <texture file="skeletal/mauretania/i_l_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="i_l_01_02">
+      <textures>
+        <texture file="skeletal/mauretania/i_l_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="i_l_01_03">
+      <textures>
+        <texture file="skeletal/mauretania/i_l_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="i_l_01_04">
+      <textures>
+        <texture file="skeletal/mauretania/i_l_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_javelin_relax.xml" frequency="1" name="Javelinist-Relax"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_ranged_javelinist.xml" name="attack_ranged"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/death_cape_pelt.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

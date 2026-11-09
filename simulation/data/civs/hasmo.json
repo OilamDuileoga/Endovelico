@@ -1,0 +1,80 @@
+{
+    "Code": "hasmo",
+    "Name": "hasmonean",
+    "Culture":[ "Judeans"],
+    "Region": [
+        "Asia"
+    ],
+    "Music": [
+        {
+            "File": "Helen_Leaves_Sparta.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Peaks_of_Atlas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Forging_a_City-State.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "The_Hellespont.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/hasmo/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/hasmo/civil_centre"
+        },
+        {
+            "Template": "units/hasmo/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/hasmo/infantry_slinger_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/hasmo/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/hasmo/cavalry_javelineer_b"
+        },
+        {
+            "Template": "units/hasmo/cavalry_scout"
+        }
+    ],
+    "AINames": [
+    "ethnarkhēs Jonatán Macabeo",
+    "ethnarkhēs Simón Macabeo",
+    "ethnarkhēs Juan Hircano",
+    "ethnarkhēs Hircano II",
+    "Aristóbulo I",
+    "Alejandro Janneo",
+    "Salomé Alejandra ",
+    "Aristóbulo II",
+    "Antígono Matatías ",
+    "Matatías ben Johanan",
+    "Judas macabeo ",
+    "Yohanan Macabeo",
+    "Eleazar Macabeo",
+    "Jonatán Macabeo",
+    "Simón Macabeo"
+
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/hasmo/cavalry_scout",
+        "skirmish/structures/default_house_5": "structures/{civ}/house",
+        "skirmish/units/default_infantry_ranged_b": "units/hasmo/infantry_slinger_b",
+        "skirmish/units/default_infantry_melee_b": "units/hasmo/infantry_spearman_b",
+        "skirmish/units/default_ship_trireme": "units/{civ}/ship_arrow"
+    },
+    "SelectableInGameSetup": true
+}

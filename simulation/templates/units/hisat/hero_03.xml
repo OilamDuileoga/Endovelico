@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+  <Auras datatype="tokens">
+      units/heroes/amerindian/matriarch
+  </Auras>
+  <Identity>
+    <Civ>hisat</Civ>
+    <Phenotype>female</Phenotype>
+    <GenericName>Clan Mother</GenericName>
+    <SpecificName>So'wuuti</SpecificName>
+    <SelectionGroupName>units/hisat/hero_rain_lord</SelectionGroupName>
+    <Icon>units/hisat/hero_matriarch.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hisatsinom/hero_03_f.xml</Actor>
+  </VisualActor>
+</Entity>

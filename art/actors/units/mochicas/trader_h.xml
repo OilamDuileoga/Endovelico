@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" file="quadraped/base_guanaco_trader.xml">
+      <mesh>skeletal/guanaco.dae</mesh>
+      <props>
+        <prop actor="props/units/horse/donkey_pack_01.xml" attachpoint="hump"/>
+      </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="quadraped/base_guanaco_death.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="01">
+      <textures>
+        <texture file="skeletal/guanaco_trader_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="02">
+      <textures>
+        <texture file="skeletal/guanaco_trader_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>

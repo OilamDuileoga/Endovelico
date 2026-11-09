@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>mapu</Civ>
+    <SelectionGroupName>units/mapuches/support_healer_b</SelectionGroupName>
+    <GenericName>Mapuche Shaman</GenericName>
+    <SpecificName>Machi</SpecificName>
+    <Icon>units/mapu/support_healer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/mapu/support_healer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/mapuches/healer.xml</Actor>
+  </VisualActor>
+</Entity>

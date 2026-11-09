@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+    <Auras datatype="tokens">
+        units/heroes/amerindian/warrior_high_priest
+    </Auras>
+  <Identity>
+    <Civ>aden</Civ>
+    <GenericName>War Chief</GenericName>
+    <SpecificName></SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/aden/hero_rain_lord</SelectionGroupName>
+    <Icon>units/aden/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/adena/hero_03.xml</Actor>
+  </VisualActor>
+</Entity>

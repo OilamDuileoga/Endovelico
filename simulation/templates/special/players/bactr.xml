@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>bactr</Civ>
+    <GenericName>Greco-Bactrian Kingdom</GenericName>
+    <History>Hellenistic state (250–130 BC) in Afghanistan/Central Asia. Founded by Diodotus I after seceding from Seleucids. Blended Greek and Buddhist/Zoroastrian traditions. Issued unique coinage; cities like Ai-Khanoum featured Greek theaters and gymnasia. Fell to nomadic invasions (Yuezhi/Scythians).</History>
+    <Icon>emblems/emblem_bactr.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

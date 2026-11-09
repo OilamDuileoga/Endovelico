@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>kartl</Civ>
+    <GenericName>Iberian Royal Spearman</GenericName>
+    <SpecificName>Mepis Šubosani</SpecificName>
+
+    <Icon>units/thra/champion_infantry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_infantry
+      </Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kartlians/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

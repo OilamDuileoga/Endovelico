@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
+  </Health>
+  <Footprint>
+    <Square depth="28.0" width="28.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>vyadh</Civ>
+
+  </Identity>
+  <Obstruction>
+    <Static depth="27.5" width="27.5"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+	  units/{civ}/infantry_spearman_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/vyadhapurans/civic_center.xml</Actor>
+  </VisualActor>
+</Entity>

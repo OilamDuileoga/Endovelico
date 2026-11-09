@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_javelineer">
+  <Identity>
+  <Civ>damar</Civ>
+    <GenericName>Damara Champion Javelineer</GenericName>
+    <Icon>units/damar/champion_infantry_javelinist.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/damara/infantry_champion_javelinist.xml</Actor>
+  </VisualActor>
+</Entity>

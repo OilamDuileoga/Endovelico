@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_elephant_melee">
+  <Identity>
+    <Civ>epir</Civ>
+    <GenericName>Towered War Elephant</GenericName>
+    <SpecificName>Pyrgophóros Eléphas</SpecificName>
+    <Classes datatype="tokens">MaceElephant</Classes>
+    <Icon>units/ptol/champion_elephant.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
+  </Identity>
+  <TrainingRestrictions>
+    <Category>MaceElephant</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>units/ptolemies/elephantry_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

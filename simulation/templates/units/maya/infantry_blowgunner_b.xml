@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_blowgunner">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/maya/pyramid_large
+      structures/maya/palace
+      structures/maya/observatory
+      structures/maya/embassy
+      structures/maya/temple_of_masks
+      structures/maya/range
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>maya</Civ>
+    <SelectionGroupName>units/maya_protoclassic/blowgunner</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Hunterblowgunner</VisibleClasses>
+    <GenericName>Maya Blowgun Hunter</GenericName>
+    <SpecificName>A'nab</SpecificName>
+    <Icon>units/maya/infantry_blowgunner.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/maya/infantry_blowgunner_a</Entity>
+  </Promotion>
+  <TrainingRestrictions>
+    <Category>Hunterblowgunner</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>units/mayas/infantry_blowgunner_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Identity>
+    <Civ>suva</Civ>
+    <GenericName>Siharaja of Thaton</GenericName>
+    <SpecificName>Sīharājā</SpecificName>
+    <Icon>units/yayo/hero_keiko.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/yayoi/infantry_spearman_e.xml</Actor>
+  </VisualActor>
+</Entity>

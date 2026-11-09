@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>suva</Civ>
+    <GenericName>Mon</GenericName>
+    <History>Suvarṇabhūmi is a toponym, that appears in many ancient Indian literary sources and Buddhist texts such as the Mahavamsa, some of the Jataka tales, the Milinda Panha and the Ramayana Though its exact location is unknown and remains a matter of debate, Suvarṇabhūmi was an important port along trade routes that run through the Indian Ocean, setting sail from the wealthy ports in Basra, Ubullah, and Siraf, through Muscat, Malabar, Ceylon, the Nicobars, Kedah and on through the Strait of Malacca to fabled Suvarṇabhūmi.</History>
+    <Icon>emblems/emblem_anuradhapura.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

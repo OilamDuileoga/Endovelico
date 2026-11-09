@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Attack>
+    <Melee>
+      <AttackName context="Name of an attack using a single-edged sword.">Sword</AttackName>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>naba</Civ>
+    <GenericName>Nabataean Axeman</GenericName>
+    <SpecificName>Muharûbîn Fleqā</SpecificName>
+    <History>Thracian tribesmen who wield the fearsome rhomphaia polearm weapon in combat. They were ubiquitous mercenary swordsmen and skirmishers throughout Hellenistic times, sometimes even serving in two opposing armies.</History>
+    <Icon>units/sele/infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/naba/infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/nabataeans/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

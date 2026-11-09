@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_cavalry_range_throwing">
+  <Identity>
+    <Civ>anish</Civ>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/anish/cavalry_axeman_b</SelectionGroupName>
+    <GenericName>Hatchet Thrower</GenericName>
+    <SpecificName/>
+    <Icon>units/anish/cavalry_throwing.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/anishinaabe/infantry_heavy_throwing_axeman.xml</Actor>
+  </VisualActor>
+</Entity>

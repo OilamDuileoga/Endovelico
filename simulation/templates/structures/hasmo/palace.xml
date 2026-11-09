@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_palace">
+  <Identity>
+    <Civ>hasmo</Civ>
+    <GenericName>Palace</GenericName>
+    <Classes datatype="tokens">CivSpecific</Classes>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_john
+      units/{civ}/hero_judah
+      units/{civ}/hero_salome
+      units/{civ}/hero_simon
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/hasmoneans/palace.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

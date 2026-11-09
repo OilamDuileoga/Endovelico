@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>bedo</Civ>
+    <GenericName>Dhu-Samawi Priest</GenericName>
+    <SpecificName>Kāhin</SpecificName>
+    <Icon>units/bedo/support_healer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/bedo/support_healer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/bedouins/healer.xml</Actor>
+  </VisualActor>
+</Entity>

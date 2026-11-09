@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>illy</Civ>
+    <GenericName>Illyrian Noble Spearman</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/illy/champion_infantry_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/illyrians/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_javelineer">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>sao</Civ>
+    <Phenotype>female</Phenotype>
+    <GenericName>Queen of the Sao</GenericName>
+    <SpecificName>Nyal</SpecificName>
+    <Icon>units/sao/hero_01.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/sao/hero_cavalry_javelineer_m.xml</Actor>
+  </VisualActor>
+</Entity>

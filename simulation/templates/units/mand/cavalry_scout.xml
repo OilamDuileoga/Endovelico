@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_mount_javelineer">
+  <Identity>
+    <Civ>mand</Civ>
+    <GenericName>Mande Scout</GenericName>
+    <Icon>units/mand/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mande/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

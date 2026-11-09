@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_trader">
+  <Identity>
+    <Civ>lenc</Civ>
+    <GenericName>Lenca Trader</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/lenc/support_trader.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/lencas/trader.xml</Actor>
+  </VisualActor>
+</Entity>

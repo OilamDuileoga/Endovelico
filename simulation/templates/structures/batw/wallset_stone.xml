@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>batw</Civ>
+    <SpecificName>!</SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/batw/wall_tower</Tower>
+      <Gate>structures/batw/wall_gate</Gate>
+      <WallLong>structures/batw/wall_long</WallLong>
+      <WallMedium>structures/batw/wall_medium</WallMedium>
+      <WallShort>structures/batw/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.50</MaxTowerOverlap>
+    <MinTowerOverlap>0.01</MinTowerOverlap>
+  </WallSet>
+</Entity>

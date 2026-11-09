@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+  <Civ>chibc</Civ>
+    <GenericName>Güecha Champion</GenericName>
+    <SpecificName>Güecha</SpecificName>
+    <Icon>units/chibc/champion_infantry_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/chibchas/infantry_champion_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

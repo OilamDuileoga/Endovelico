@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Footprint>
+    <Square width="14.0" depth="14.0"/>
+  </Footprint>
+  <Identity>
+    <Civ>hasmo</Civ>
+
+  </Identity>
+  <Obstruction>
+    <Static width="13.5" depth="13.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/hasmoneans/house.xml</Actor>
+  </VisualActor>
+</Entity>

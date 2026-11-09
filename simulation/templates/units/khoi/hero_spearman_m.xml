@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Identity>
+    <Civ>khoi</Civ>
+    <GenericName>Gonnema of the Cochoqua</GenericName>
+    <SpecificName>Gonnema</SpecificName>
+    <Icon>units/khoi/hero_spearman_m.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/khoisan/hero_spearman_m.xml</Actor>
+  </VisualActor>
+</Entity>

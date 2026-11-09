@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>viet</Civ>
+    <GenericName>Lac General</GenericName>
+    <SpecificName>Lạc Tướng</SpecificName>
+    <Icon>units/viet/champion_infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_infantry
+      </Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/vietnamese/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

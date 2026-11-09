@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+    units/heroes/kush_hero_nastasen_1
+    units/heroes/kush_hero_nastasen_2
+  </Auras>
+  <Identity>
+    <Civ>mand</Civ>
+    <GenericName>Sogolon Kondé, the Buffalo Woman</GenericName>
+    <SpecificName>Sogolon Kɔnde</SpecificName>
+	  <Phenotype>female</Phenotype>
+    <Icon>units/mand/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mande/hero_infantry_swordswoman.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Base">
+      <mesh>props/shield/aspis_01_front.dae</mesh>
+      <props>
+        <prop actor="props/units/shields/props/aspis_back_bronze_01.xml" attachpoint="root"/>
+        <prop actor="props/units/shields/props/aspis_handgrip_bronze_01.xml" attachpoint="handgrip"/>
+      </props>
+      <textures>
+        <texture file="props/shield/aspis_spec_bronze.png" name="specTex"/>
+        <texture file="props/shield/aspis_01_norm.png" name="normTex"/>
+      </textures>
+    </variant> 
+  </group>
+  <group>
+    <variant frequency="1" name="aspis_cyre_01">
+      <textures>
+        <texture file="props/shield/aspis_cyre_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="aspis_cyre_02">
+      <textures>
+        <texture file="props/shield/aspis_cyre_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="aspis_cyre_03">
+      <textures>
+        <texture file="props/shield/aspis_cyre_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="aspis_cyre_04">
+      <textures>
+        <texture file="props/shield/aspis_cyre_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="aspis_cyre_05">
+      <textures>
+        <texture file="props/shield/aspis_cyre_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="aspis_cyre_06">
+      <textures>
+        <texture file="props/shield/aspis_cyre_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

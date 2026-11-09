@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>pamp</Civ>
+    <GenericName>Pampidos</GenericName>
+    <History>Indigenous hunter-gatherers of South America Pampas grasslands.
+     Mobile bands utilizing guanaco herds, rhea birds, and wild plants. Used bolas weapons and rock art.</History>
+    <Icon>emblems/emblem_pamp.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

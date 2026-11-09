@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_javelineer">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>mauret</Civ>
+    <GenericName>Baga of the Mauri</GenericName>
+    <SpecificName>Baga</SpecificName>
+    <Icon>units/mauret/hero_baga.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauretania/hero_cavalry_javelineer_m.xml</Actor>
+  </VisualActor>
+</Entity>

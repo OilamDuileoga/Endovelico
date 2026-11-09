@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Identity>
+    <Civ>araw</Civ>
+    <GenericName>Arawak Spearman</GenericName>
+    <SelectionGroupName>Levy Spearman</SelectionGroupName>
+    <SpecificName></SpecificName>
+    <Icon>units/araw/infantry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/araw/infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/arawaks/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>
+
+

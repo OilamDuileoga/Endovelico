@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>tocha</Civ>
+    <GenericName>Tocharians</GenericName>
+    <History>Indo-European nomads in the Tarim Basin (Xinjiang). Settled in oasis cities like Turfan by 500 BC. Farmed wheat/millet using karez irrigation. Spoke Tocharian languages (centum branch); traded jade/horses on Silk Road. Mummified remains show European features. Adopted Buddhism by 200 AD, blending Hellenistic/Indian art styles.</History>
+    <Icon>emblems/emblem_tocha.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

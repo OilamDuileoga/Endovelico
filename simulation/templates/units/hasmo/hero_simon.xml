@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_healer">
+  <Auras datatype="tokens">
+    units/heroes/jude_hero_simon1
+    units/heroes/maur_hero_chanakya_2
+  </Auras>
+  <Identity>
+    <Civ>hasmo</Civ>
+    <GenericName>Simon Thassi</GenericName>
+    <SpecificName>Shimon ha-Tassi</SpecificName>
+    <Icon>units/hasmo/hero_simon.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hasmoneans/hero_simon.xml</Actor>
+  </VisualActor>
+</Entity>

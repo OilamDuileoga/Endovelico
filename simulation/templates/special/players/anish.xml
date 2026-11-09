@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>anish</Civ>
+    <GenericName>Anishinaabe</GenericName>
+    <History>The Anishinaabe were an indigenous group in North America, primarily in the Great Lakes region. They engaged in fishing, hunting, and gathering, establishing communities that emphasized oral traditions, spiritual beliefs, and deep connections to their ancestral lands and natural resources.</History>
+    <Icon>emblems/emblem_anish.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/great_admin_chief
+  </Auras>
+  <Identity>
+    <Civ>paiu</Civ>
+    <GenericName>Tavibo the Prophet</GenericName>
+    <SpecificName>Tävibo</SpecificName>
+    <SelectionGroupName>units/paiu/hero_night_king</SelectionGroupName>
+    <Icon>units/paiu/hero_elder.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/paiute/hero_02.xml</Actor>
+  </VisualActor>
+</Entity>

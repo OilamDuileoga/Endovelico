@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="war_hut|template_structure_military_stable">
+  <Identity>
+    <Civ>moch</Civ>
+    <GenericName>War House</GenericName>
+  </Identity>
+  <Trainer>
+      <Entities datatype="tokens">
+        units/{civ}/cavalry_slinger_b
+        units/moch/cavalry_throwing_b
+      </Entities>
+    </Trainer>
+    <Researcher>
+    <Technologies datatype="tokens">
+     moch/war_dance_ritual
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/mochicas/stable.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

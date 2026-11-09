@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_infantry_swordsman">
+  <Attack>
+    <Melee>
+      <AttackName>Macuahuitl</AttackName>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>lenc</Civ>
+    <GenericName>Lenca Scout</GenericName>
+    <Icon>units/lenc/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/lencas/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

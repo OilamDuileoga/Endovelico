@@ -1,0 +1,20 @@
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Identity>
+    <Civ>arme</Civ>
+    <SelectionGroupName>units/arme/infantry_spearman_b</SelectionGroupName>
+    <GenericName>Armenian Spearman</GenericName>
+    <SpecificName>Nizakawor</SpecificName>
+   <Icon>units/thra/infantry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/arme/infantry_spearman_a</Entity>
+  </Promotion>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/deep_line
+    </Formations>
+  </UnitAI>
+  <VisualActor>
+    <Actor>units/armenia/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

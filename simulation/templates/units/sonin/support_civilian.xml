@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Builder>
+    <Entities datatype="tokens">
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>sonin</Civ>
+
+    <SpecificName>Yaxare</SpecificName>
+    <GenericName>Soninke Villager</GenericName>
+    <Icon>units/sonin/support_civilian.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/soninke/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

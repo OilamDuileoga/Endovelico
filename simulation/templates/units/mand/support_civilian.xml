@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>mand</Civ>
+    <GenericName>Mande Villager</GenericName>
+    <SpecificName>Muso</SpecificName>
+    <Icon>units/mand/support_civilian.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mande/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

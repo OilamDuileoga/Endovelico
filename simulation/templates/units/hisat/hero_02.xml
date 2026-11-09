@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+  <Auras datatype="tokens">
+      units/heroes/amerindian/elder
+  </Auras>
+  <Identity>
+    <Civ>hisat</Civ>
+    <GenericName>Elder Chief</GenericName>
+    <SpecificName>Kikmongwi</SpecificName>
+    <SelectionGroupName>units/hisat/hero_night_king</SelectionGroupName>
+    <Icon>units/hisat/hero_elder.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/hisatsinom/hero_02.xml</Actor>
+  </VisualActor>
+</Entity>

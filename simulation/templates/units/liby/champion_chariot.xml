@@ -1,0 +1,16 @@
+<Entity parent="chariot|template_unit_champion_cavalry_archer">
+  <Footprint replace="">
+    <Square width="5.0" depth="10.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>liby</Civ>
+    <GenericName>Libyan War Chariot</GenericName>
+    <SelectionGroupName>units/liby/champion_chariot</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <Icon>units/liby/champion_chariot.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/libyan/chariot_javelinist_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

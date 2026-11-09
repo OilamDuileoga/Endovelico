@@ -1,0 +1,10 @@
+{
+	"code": "chibc",
+	"name": "Chibchas",
+	"civ": "chibc",
+	"color": "60 235 242",
+	"startProvinces": [
+		"andes_northern",
+		"quitu"
+	]
+}

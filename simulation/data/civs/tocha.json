@@ -1,0 +1,76 @@
+﻿{
+	"Code": "tocha",
+	"Culture":[ "tocharians" ],
+	"Region": [
+        "Asia"
+    ],
+	"Music": [
+		{
+			"File": "Harvest_Festival.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Forging_a_City-State.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Highland_Mist.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/tocha/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/tocha/civil_centre"
+		},
+		{
+			"Template":"units/tocha/support_civilian",
+			"Count":5
+		},
+		{
+			"Template": "units/tocha/infantry_spearman_b",
+			"Count": 3
+		},
+        {
+            "Template": "units/tocha/cavalry_archer_b",
+            "Count": 2
+        },
+		{
+			"Template": "units/tocha/cavalry_spearman_b",
+			"Count": 1
+		}
+	],
+
+	"AINames":
+	[
+
+    "Yu Lin",	
+    "Jun De",
+    "An Gui",
+    "Jiangbin",
+    "Cheng De",
+    "Wei Tuqi"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/tocha/cavalry_spearman_b",
+		"skirmish/units/default_infantry_melee_b": "units/tocha/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/tocha/cavalry_archer_b",
+	  "skirmish/units/default_ship_trireme":"units/tocha/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

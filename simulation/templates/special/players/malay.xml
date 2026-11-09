@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>malay</Civ>
+    <GenericName>Malaydwipa</GenericName>
+    <History>Indianized kingdoms in Malay Peninsula/Sumatra. Engaged in maritime spice trade by 200 BC. Adopted Sanskrit and Hinduism; early entrepôts like Langkasuka emerged. Supplied gold and forest products to India and China.</History>
+    <Icon>emblems/emblem_pyu.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

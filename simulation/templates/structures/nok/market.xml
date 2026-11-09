@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Footprint>
+    <Square width="30.0" depth="32.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>nok</Civ>
+    <SpecificName>!</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="29.5" depth="31.5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      trade_copper_bells
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/nok/market.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

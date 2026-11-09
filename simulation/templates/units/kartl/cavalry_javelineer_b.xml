@@ -1,0 +1,16 @@
+<Entity parent="template_unit_cavalry_ranged_javelineer">
+  <Identity>
+    <Civ>kartl</Civ>
+    <GenericName>Iberian Cavalry Skirmisher</GenericName>
+    <SpecificName>Mxedari</SpecificName>
+    <SelectionGroupName>units/kartl/cavalry_javelineer_b</SelectionGroupName>
+
+    <Icon>units/thra/cavalry_javelineer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/kartl/cavalry_javelineer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/kartlians/cavalry_javelinist_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

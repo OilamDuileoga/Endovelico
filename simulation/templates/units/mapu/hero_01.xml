@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+    <Auras datatype="tokens">
+      units/heroes/amerindian/diplomat_leader
+    </Auras>
+  <Identity>
+    <Civ>mapu</Civ>
+    <GenericName>Caupolicán, Great Toqui</GenericName>
+    <SpecificName>Kallfülikan</SpecificName>
+    <History>Great Toqui / Military Bonus</History>
+    <SelectionGroupName>units/mapu/hero_01</SelectionGroupName>
+    <Icon>units/mapu/hero_01.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/mapuches/hero_01.xml</Actor>
+  </VisualActor>
+</Entity>

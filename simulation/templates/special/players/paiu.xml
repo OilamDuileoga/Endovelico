@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>paiu</Civ>
+    <GenericName>Paiutes</GenericName>
+    <History>Numic-speaking peoples of the Great Basin (Nevada/Utah/California). Semi-nomadic foragers practicing seasonal pine-nut harvesting and irrigation-aided farming. Lived in wikiups; crafted intricate baskets.
+     Traded with Ancestral Puebloans.</History>
+    <Icon>emblems/emblem_paiute.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

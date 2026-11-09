@@ -1,0 +1,79 @@
+﻿{
+	"Code": "yawa",
+	"Culture":[ "Yawadwipa"],
+	"Region": [
+        "Asia"
+    ],
+	"Music": [
+		{
+			"File": "An_old_Warhorse_goes_to_Pasture.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Eastern_Dreams.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Karmic_Confluence.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Beyond_The_Indus.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/yawa/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/yawa/civil_centre"
+		},
+		{
+			"Template":"units/yawa/support_civilian",
+			"Count":5
+		},
+		{
+			"Template": "units/yawa/infantry_swordsman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/yawa/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/yawa/infantry_scout",
+			"Count": 1
+		}
+	],
+
+	"AINames":
+	[
+	"Aki Tirem",
+	"Dewawarman I",
+	"Dewawarman II",
+	"Dewawarman VIII",
+	"Mahisa Suramardini Warmandewi",
+	"Pohaci Larasati"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/yawa/infantry_scout",
+		"skirmish/units/default_infantry_melee_b": "units/yawa/infantry_swordsman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/yawa/infantry_archer_b",
+	  "skirmish/units/default_ship_trireme":"units/yawa/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Adena Dock Struct">
+      <mesh>props/structural/adena/dock_struct.dae</mesh>
+      <textures>
+        <texture file="structural/aden/struct.png" name="baseTex"/>
+        <texture file="structural/aden/struct_spec.png" name="specTex"/>
+        <texture file="structural/aden/struct_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

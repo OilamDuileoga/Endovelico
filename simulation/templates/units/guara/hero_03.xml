@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/great_war_chief
+  </Auras>
+  <Identity>
+    <Civ>guara</Civ>
+    <GenericName>Japeusá the Defiant</GenericName>
+    <SpecificName>Tuvicha Japeusa</SpecificName>
+    <SelectionGroupName>units/guara/hero_rain_lord</SelectionGroupName>
+    <Icon>units/guara/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/guaranis/infantry_hero_clubman.xml</Actor>
+  </VisualActor>
+</Entity>

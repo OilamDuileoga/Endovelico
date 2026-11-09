@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>gaet</Civ>
+    <GenericName>Gaetuli</GenericName>
+    <History>Gaetuli was the Romanised name of an ancient Berber tribe inhabiting Getulia. The latter district covered the large desert region south of the Atlas Mountains, bordering the Sahara. Other documents place Gaetulia in pre-Roman times along the Mediterranean coasts of what is now Algeria and Tunisia, and north of the Atlas. During the Roman period, according to Pliny the Elder, the Autololes Gaetuli established themselves south of the province of Mauretania Tingitana, in modern-day Morocco. The name of the Godala people is hypothesized to be derived from the word Gaetuli.</History>
+    <Icon>emblems/emblem_gaet.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

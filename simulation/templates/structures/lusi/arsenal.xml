@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_arsenal">
+  <Identity>
+    <Civ>lusi</Civ>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -siege_pack_unpack
+      -siege_bolt_accuracy
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/lusitanians/workshop.xml</Actor>
+  </VisualActor>
+</Entity>

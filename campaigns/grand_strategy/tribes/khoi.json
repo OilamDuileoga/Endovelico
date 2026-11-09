@@ -1,0 +1,9 @@
+{
+	"code": "khoi",
+	"name": "Khoikhoi",
+	"civ": "khoi",
+	"color": "139 191 86",
+	"startProvinces": [
+		"kalahari"
+	]
+}

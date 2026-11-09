@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>sonin</Civ>
+    <GenericName>Wagadu Royal Spearman</GenericName>
+    <SpecificName>Gbere-Kunu</SpecificName>
+    <Icon>units/sonin/champion_infantry_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/soninke/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

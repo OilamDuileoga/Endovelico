@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="autobuild|template_structure_civic_house">
+  <BuildRestrictions>
+    <Territory>own neutral ally</Territory>
+  </BuildRestrictions>
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Footprint replace="">
+    <Circle radius="10.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>yuez</Civ>
+    <GenericName>Yurt</GenericName>
+    <SpecificName>!</SpecificName>
+    <Phenotype datatype="tokens">
+      Yurt
+    </Phenotype>
+    <VisibleClasses datatype="tokens">Village House Yurt</VisibleClasses>
+  </Identity>
+  <Obstruction>
+    <Static width="14.0" depth="14.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </Researcher>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <Upgrade>
+    <PackStorehouse>
+      <Entity>units/yuez/support_wagon</Entity>
+      <Time>10</Time>
+    </PackStorehouse>
+  </Upgrade>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/yuezhi/house.xml</Actor>
+  </VisualActor>
+</Entity>

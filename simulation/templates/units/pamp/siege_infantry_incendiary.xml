@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_incendiary">
+  <Identity>
+    <Civ>pamp</Civ>
+    <Classes datatype="tokens">Siege</Classes>
+    <GenericName>Fire Warrior</GenericName>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+    <Tooltip>siege</Tooltip>
+    <Icon>units/pamp/siege_infantry_incendiary.png</Icon>
+  </Identity>
+  <Health>
+    <Max>150</Max>
+  </Health>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/pampidos/infantry_incendiary_runner.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/anish/pyramid_large
+      structures/anish/observatory
+      structures/anish/embassy
+      structures/anish/temple_of_masks
+      structures/anish/range
+      structures/anish/palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>anish</Civ>
+    <GenericName>Anishinaabe Villager</GenericName>
+    <SpecificName>Ikwe</SpecificName>
+    <Icon>units/anish/citizen.png</Icon>
+    <SelectionGroupName>units/anish/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/anishinaabe/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

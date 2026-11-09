@@ -1,0 +1,22 @@
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Builder>
+    <Entities datatype="tokens">
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>batw</Civ>
+
+    <SelectionGroupName>units/batw/infantry_archer_b</SelectionGroupName>
+    <GenericName>Batwa Archer</GenericName>
+    <Icon>units/batw/infantry_archer.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/batw/infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/batwa/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

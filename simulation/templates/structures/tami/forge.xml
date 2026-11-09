@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Identity>
+    <Civ>tami</Civ>
+    <SpecificName>Kollaṉ Paṭṭaṟai</SpecificName>
+  </Identity>
+  <VisualActor>
+       <Actor>structures/tamiles/forge.xml</Actor>
+  </VisualActor>
+</Entity>

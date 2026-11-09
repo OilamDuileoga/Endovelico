@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/khoi/infantry_axeman_a">
+  <Identity>
+    <Civ>khoi</Civ>
+    <Icon>units/khoi/infantry_axeman_e.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/khoisan/infantry_axeman_e.xml</Actor>
+  </VisualActor>
+</Entity>

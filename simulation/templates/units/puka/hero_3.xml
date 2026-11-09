@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/great_admin_chief
+  </Auras>
+  <Identity>
+    <Civ>puka</Civ>
+    <GenericName>Great Commander Lord</GenericName>
+    <SpecificName>Sinchi Mallku</SpecificName>
+    <History>Military ruler responsible for defending caravans, highland settlements, and expanding regional Pukará influence.</History>
+    <Icon>units/puka/hero_maceman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/pukara/hero_infantry_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

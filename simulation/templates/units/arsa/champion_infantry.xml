@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_axeman">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack op="mul">0.85</Hack>
+        <Pierce op="mul">0.85</Pierce>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>120</Max>
+  </Health>
+  <Identity>
+    <Civ>arsa</Civ>
+    <Lang>persian</Lang>
+    <GenericName>Arsacid Aristocrat</GenericName>
+    <SpecificName>ērīh grivpanvar</SpecificName>
+    <Icon>units/achae/champion_infantry.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city unlock_champion_infantry</Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/achaemenids/infantry_spearman_c2.xml</Actor>
+  </VisualActor>
+</Entity>

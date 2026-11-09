@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Identity>
+  <Civ>liby</Civ>
+    <Phenotype>female</Phenotype>
+    <GenericName>Libyan Great Archer</GenericName>
+    <Icon>units/liby/champion_infantry_archer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/libyan/champion_archer_female.xml</Actor>
+  </VisualActor>
+</Entity>

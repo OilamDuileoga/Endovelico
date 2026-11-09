@@ -1,0 +1,67 @@
+﻿{
+    "Code": "paiu",
+    "Culture":[ "paiutes"],
+    "Region": [
+        "America"
+    ],
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/paiu/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/paiu/civil_centre"
+        },
+        {
+            "Template": "units/paiu/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/paiu/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/paiu/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/paiu/support_civilian",
+            "Count": 1
+        },
+        {
+            "Template": "units/paiu/infantry_scout"
+        }
+    ],
+    "AINames": [
+        "Tavibo",
+        "Numaga",
+        "Pahavitsi",
+        "Kai'n avi",
+        "Toi'tsina",
+        "Wünüka",
+        "Nokwitsi",
+        "Paguana",
+        "Yantuví",
+        "Togowini"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/paiu/infantry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/paiu/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/paiu/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/paiu/support_civilian",
+        "skirmish/units/default_ship_trireme": "units/paiu/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

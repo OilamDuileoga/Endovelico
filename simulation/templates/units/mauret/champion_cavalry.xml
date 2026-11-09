@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_swordsman">
+  <Identity>
+    <Civ>mauret</Civ>
+    <GenericName>Mauretanian Noble Sword Cavalry</GenericName>
+    <Icon>units/mauret/champion_cavalry.png</Icon>
+    <SelectionGroupName>units/numi/champion_cavalry</SelectionGroupName>
+    <Requirements>
+      <Techs datatype="tokens">phase_city -unlock_champion_cavalry</Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mauretania/cavalry_swordsman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="b1">
+      <mesh>props/armor/back_bahkab_1.dae</mesh>
+      <textures>
+        <texture file="props/maya_weapons.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="100" name="b2">
+      <mesh>props/armor/back_bahkab_2.dae</mesh>
+      <textures>
+        <texture file="props/maya_weapons.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="100" name="b3">
+      <mesh>props/armor/back_bahkab_3.dae</mesh>
+      <textures>
+        <texture file="props/maya_weapons.png" name="baseTex"/>
+      </textures>
+    </variant>
+        <variant frequency="100" name="b4">
+      <mesh>props/armor/back_bahkab_4.dae</mesh>
+      <textures>
+        <texture file="props/maya_weapons.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="base">
+    <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_white.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

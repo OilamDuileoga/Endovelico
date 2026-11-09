@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/great_admin_chief
+  </Auras>
+  <Identity>
+    <Civ>guara</Civ>
+    <GenericName>Marangatú the Virtuous</GenericName>
+    <SpecificName>Mburuvicha Marangatu</SpecificName>
+    <SelectionGroupName>units/guara/hero_jaguar_king</SelectionGroupName>
+    <Icon>units/guara/hero_01.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/guaranis/infantry_hero_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

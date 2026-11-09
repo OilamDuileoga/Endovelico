@@ -1,0 +1,9 @@
+{
+	"code": "sarma",
+	"name": "Sarmatians",
+	"civ": "sarma",
+	"color": "191 47 102",
+	"startProvinces": [
+		"aestia"
+	]
+}

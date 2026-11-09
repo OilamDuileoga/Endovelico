@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <props>
+        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/kore/struct.png" name="baseTex"/>
+        <texture file="structural/kore/struct_spec.png" name="specTex"/>
+        <texture file="structural/kore/struct_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="house a">
+<mesh>structural/koreans/house_1.dae</mesh>
+      <textures>
+        <texture file="structural/ao/koreans/house_01_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house b">
+<mesh>structural/koreans/house_2.dae</mesh>
+      <textures>
+        <texture file="structural/ao/koreans/house_02_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house c">
+<mesh>structural/koreans/house_3.dae</mesh>
+      <textures>
+        <texture file="structural/ao/koreans/house_03_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="house d">
+<mesh>structural/koreans/house_4.dae</mesh>
+      <textures>
+        <texture file="structural/ao/koreans/house_04_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="v1">
+      <props>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_01.xml" attachpoint="v_03" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_02.xml" attachpoint="v_04" maxheight="20" minheight="-20"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="v2">
+      <props>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_01.xml" attachpoint="v_03" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_02.xml" attachpoint="v_04" maxheight="20" minheight="-20"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="v3">
+      <props>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_01" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/player_prop.xml" attachpoint="v_02" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_01.xml" attachpoint="v_03" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/koreans/vase_02.xml" attachpoint="v_04" maxheight="20" minheight="-20"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="ungarrisoned"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_gojo.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="root"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_1x1.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_ao_parallax_spec.xml</material>
+</actor>

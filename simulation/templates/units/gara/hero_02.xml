@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_swordsman">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>gara</Civ>
+    <GenericName>King of the Garamantes</GenericName>
+    <SpecificName>Agellid</SpecificName>
+    <Icon>units/gara/hero_02.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/garamantians/hero_infantry_swordsman.xml</Actor>
+  </VisualActor>
+</Entity>

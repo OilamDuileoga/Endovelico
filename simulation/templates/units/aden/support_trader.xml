@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_trader">
+  <Identity>
+    <Civ>aden</Civ>
+    <GenericName>Adena Trader</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/aden/support_trader.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/adena/trader.xml</Actor>
+  </VisualActor>
+</Entity>

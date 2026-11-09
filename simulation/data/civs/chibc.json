@@ -1,0 +1,60 @@
+﻿{
+    "Code": "chibc",
+    "Culture":[ "Chibchas"],
+    "Region":["America", "Amazonia"],
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/chibc/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/chibc/civil_centre"
+        },
+        {
+            "Template": "units/chibc/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/chibc/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/chibc/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/chibc/support_civilian",
+            "Count": 1
+        },
+        {
+            "Template": "units/chibc/infantry_scout"
+        }
+    ],
+    "AINames": [
+        "Hunzahúa",
+        "Meicuchuca",
+        "Tisquesusa",
+        "Idacansás",
+        "Bachué"    
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/chibc/infantry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/chibc/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/chibc/infantry_archer_b",
+        "skirmish/units/special_starting_unit": "units/chibc/support_civilian",
+        "skirmish/units/default_ship_trireme": "units/chibc/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

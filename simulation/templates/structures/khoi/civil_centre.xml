@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Footprint replace="">
+    <Circle radius="16.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>khoi</Civ>
+    <SpecificName>ǃĀs</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="32.0" depth="32.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_axeman_b
+      units/{civ}/infantry_archer_b
+      units/{civ}/hero_spearman_m
+      units/{civ}/hero_javelinist_m
+      units/{civ}/hero_healer_m
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/khoisan/civic_center.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Identity>
+  <Civ>urew</Civ>
+    <GenericName>Urewe Champion Archer</GenericName>
+    <SpecificName>Intore</SpecificName>
+    <Icon>units/urew/champion_infantry_archer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/urewe/infantry_champion_archer.xml</Actor>
+  </VisualActor>
+</Entity>

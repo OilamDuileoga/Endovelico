@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Footprint>
+    <Square width="13.0" depth="8.0"/>
+    <Height>9.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>vyadh</Civ>
+    <SpecificName>Prākāra</SpecificName>
+    <SelectionGroupName>structures/gara_wallset_stone</SelectionGroupName>
+
+  </Identity>
+  <Obstruction>
+    <Static width="12.5" depth="7.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/vyadhapurans/wall_short.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>13</Length>
+  </WallPiece>
+</Entity>

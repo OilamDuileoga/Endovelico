@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="hoplite|template_unit_hero_infantry_spearman">
+  <!-- <Attack>
+    <Melee>
+	  <Bonuses>
+		<BonusSpartans>
+		  <Civ>spart</Civ>
+		  <Classes></Classes>
+		  <Multiplier>1.25</Multiplier>
+		</BonusSpartans>
+	  </Bonuses>
+    </Melee>
+  </Attack> -->
+  <Auras datatype="tokens">
+    units/heroes/theb_hero_epaminondas
+  </Auras>
+  <Identity>
+    <Civ>syrac</Civ>
+	<Lang>greek</Lang>
+	<GenericName>Dionysius I the Elder</GenericName>
+    <SpecificName>Dionýsios ho Presbýteros</SpecificName>
+	<History>Tyrant of Syracuse from 405 to 367 BC. Dionysius I fortified Ortygia, built the Euryalus fortress and the great walls of Epipolae, fought four wars against Carthage and made Syracuse the most powerful Greek city of the West.</History>
+    <Tooltip>Traits: Medium Speed, Heavy Armor, Strong Attack, Shield Wall.
+Strong Against: All Cavalry (1.25x), Spartans (1.25x)
+Weak Against: Ranged Units, Sword Infantry.</Tooltip>
+    <Icon>units/theb/hero_epaminondas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thebans/hero_epaminondas.xml</Actor>
+  </VisualActor>
+</Entity>

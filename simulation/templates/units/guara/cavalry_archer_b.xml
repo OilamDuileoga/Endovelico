@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_infantry_ranged_archer">
+  <Identity>
+    <Civ>guara</Civ>
+    <SelectionGroupName>units/guara/fast_archer</SelectionGroupName>
+    <GenericName>Guarani Huntress</GenericName>
+    <Icon>units/guara/cavalry_archer.png</Icon>
+    <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
+    <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/guaranis/female_archer.xml</Actor>
+  </VisualActor>
+</Entity>

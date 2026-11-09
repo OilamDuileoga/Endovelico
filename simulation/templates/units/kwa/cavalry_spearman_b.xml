@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_infantry_melee_spearman">
+  <Footprint replace="">
+    <Square width="4" depth="6"/>
+    <Height>7.5</Height>
+  </Footprint>
+  <Identity>
+    <Civ>kwa</Civ>
+    <GenericName>Heavy Spear Warrior</GenericName>
+    <SpecificName>Ọlọ́kọ̀</SpecificName>
+    <SelectionGroupName>units/Kwa/heavy_spearman</SelectionGroupName>
+    <Icon>units/kwa/cavalry_spearman.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/kwa/infantry_heavy_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

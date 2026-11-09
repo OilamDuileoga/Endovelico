@@ -1,0 +1,9 @@
+{
+	"code": "aden",
+	"name": "Adena",
+	"civ": "aden",
+	"color": "60 113 242",
+	"startProvinces": [
+		"mississippi_northern"
+	]
+}

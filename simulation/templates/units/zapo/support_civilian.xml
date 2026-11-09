@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>zapo</Civ>
+    <GenericName>Zapotec Villager</GenericName>
+    <SpecificName>Gunaa</SpecificName>
+    <Icon>units/zapo/citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/zapotecs/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

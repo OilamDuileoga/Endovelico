@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/kush_hero_nastasen_1
+    units/heroes/kush_hero_nastasen_2
+  </Auras>
+  <Identity>
+    <Civ>aksum</Civ>
+
+    <GenericName>Nalke of Aksum</GenericName>
+    <SpecificName>Nālkē</SpecificName>
+    <Icon>units/aksum/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/aksumites/hero_spearman_m.xml</Actor>
+  </VisualActor>
+</Entity>

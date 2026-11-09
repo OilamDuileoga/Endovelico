@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_infantry_javelineer">
+  <Identity>
+    <Civ>chibc</Civ>
+    <GenericName>Chibcha Scout</GenericName>
+    <Icon>units/chibc/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/chibchas/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

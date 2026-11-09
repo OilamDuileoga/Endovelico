@@ -1,0 +1,9 @@
+{
+	"code": "illy",
+	"name": "Illyrians",
+	"civ": "illy",
+	"color": "242 119 109",
+	"startProvinces": [
+		"illyria"
+	]
+}

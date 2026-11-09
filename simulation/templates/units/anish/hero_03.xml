@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+    <Auras datatype="tokens">
+        units/heroes/amerindian/matriarch
+    </Auras>
+  <Identity>
+    <Civ>anish</Civ>
+	  <Phenotype>female</Phenotype>
+    <GenericName>Clan Matriarch</GenericName>
+    <SpecificName>Ogimaakwe</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/anish/hero_rain_lord</SelectionGroupName>
+    <Icon>units/anish/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/anishinaabe/hero_03_f.xml</Actor>
+  </VisualActor>
+</Entity>

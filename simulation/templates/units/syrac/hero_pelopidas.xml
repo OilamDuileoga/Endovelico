@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="hoplite|template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/theb_hero_pelopidas
+  </Auras>
+  <Identity>
+    <Civ>syrac</Civ>
+	<Lang>greek</Lang>
+	<GenericName>Agathocles</GenericName>
+    <SpecificName>Agathoklês</SpecificName>
+    <History>Tyrant and later king of Syracuse (317-289 BC). Besieged by Carthage, Agathocles boldly carried the war to Africa in 310 BC, burning his ships on landing and marching on Carthage itself.</History>
+    <Icon>units/theb/hero_pelopidas.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thebans/hero_pelopidas.xml</Actor>
+  </VisualActor>
+</Entity>

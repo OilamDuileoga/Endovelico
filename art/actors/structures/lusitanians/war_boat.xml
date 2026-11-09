@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100" name="lusi fishing boat a">
+      <mesh>structural/ships/boat_01_01.dae</mesh>
+      <props>
+        <prop actor="units/lusitanians/boat_navigator.xml" attachpoint="01"/>
+        <prop actor="units/lusitanians/boat_navigator.xml" attachpoint="02"/>
+        <prop actor="units/lusitanians/boat_navigator.xml" attachpoint="03"/>
+        <prop actor="units/lusitanians/boat_navigator.xml" attachpoint="04"/>
+      </props>
+      <textures>
+        <texture file="structural/lusi_balsa.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="1" name="walk"/>
+    <variant frequency="1" name="run"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,68 @@
+﻿{
+	"Code": "zapo",
+	"Culture":[ "meso"],
+	"Region": ["mesoamerica","America"],
+	"Music": [
+		{
+			"File": "Cloud_People.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Old New World.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses":
+	[],
+	"WallSets":
+	[
+		"structures/wallset_palisade",
+		"structures/zapo/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/zapo/civil_centre"
+		},
+		{
+			"Template": "units/zapo/support_civilian",
+			"Count": 4
+		},
+		{
+			"Template": "units/zapo/infantry_swordsman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/zapo/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/zapo/infantry_scout",
+			"Count": 1
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/line_closed",
+		"special/formations/line_open",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/column_open"
+	],
+	"AINames":
+	[
+		"Ozomatli",
+		"Huijatoo",
+		"Zaachila",
+		"Cosijoeza",
+		"Cocijopij"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_cavalry": "units/zapo/infantry_scout",
+		"skirmish/units/default_infantry_ranged_b": "units/zapo/infantry_javelineer_b",
+		"skirmish/structures/default_house_10": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}

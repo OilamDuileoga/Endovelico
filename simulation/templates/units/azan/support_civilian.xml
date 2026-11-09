@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+
+  <Identity>
+    <Civ>azan</Civ>
+    <GenericName>Azanian Villager</GenericName>
+    <SpecificName>Mwanamke</SpecificName>
+    <Icon>units/azan/support_civilian.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/azania/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

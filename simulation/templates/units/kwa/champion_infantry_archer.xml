@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_javelineer">
+  <Identity>
+    <Civ>kwa</Civ>
+    <GenericName>Yoruba Champion Hunter</GenericName>
+    <SpecificName>Ọdẹ</SpecificName>
+    <Icon>units/kwa/champion_infantry_archer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kwa/infantry_archer_c.xml</Actor>
+  </VisualActor>
+</Entity>

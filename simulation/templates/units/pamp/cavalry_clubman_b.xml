@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_infantry_melee_clubman">
+  <Identity>
+    <Civ>pamp</Civ>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/pamp/heavy_javelineer</SelectionGroupName>
+    <GenericName>Great Club Warrior</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/pamp/cavalry_clubman.png</Icon>
+    <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
+    <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/pampidos/infantry_heavy_clubman.xml</Actor>
+  </VisualActor>
+</Entity>

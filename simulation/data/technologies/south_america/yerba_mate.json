@@ -1,0 +1,28 @@
+{
+	"genericName": "Matte Herb Planting",
+	"specificName": {
+		"guara": "Matte"
+	},
+	"description": ". ",
+	"cost": {
+		"wood": 200,
+		"food": 10
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_village" },
+			{
+				"civ": "guara"
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "apicultura.png",
+	"researchTime": 50,
+	"tooltip": "Workers +10% grain gather rate.",
+	"modifications": [
+		{ "value": "ResourceTrickle/Rates/food", "multiply": 0.10 }
+	],
+	"affects": ["Corral"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>suva</Civ>
+    <GenericName>Mon Villager</GenericName>
+    <SpecificName>Itthi</SpecificName>
+    <Icon>units/yayo/support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/yayoi/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

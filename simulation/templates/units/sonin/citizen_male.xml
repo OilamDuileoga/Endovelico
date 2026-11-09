@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>sonin</Civ>
+    <GenericName>Soninke Villager</GenericName>
+    <Icon>units/sonin/citizen_male.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/soninke/citizen_male.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_spearman">
+  <!-- <Attack>
+    <Melee>
+	  <Bonuses>
+		<BonusSpartans>
+		  <Civ>spart</Civ>
+		  <Classes></Classes>
+		  <Multiplier>1.25</Multiplier>
+		</BonusSpartans>
+	  </Bonuses>
+    </Melee>
+  </Attack> -->
+  <!-- <Auras datatype="tokens">
+    units/heroes/theb_hero_epaminondas
+  </Auras> -->
+  <Identity>
+    <Civ>cyre</Civ>
+	<Lang>greek</Lang>
+	<GenericName>Arcesilaus IV</GenericName>
+    <SpecificName>Arkesílaos</SpecificName>
+	  <History>Arcesilaus IV of Cyrene (flourished 5th century BC) was the eighth and final king of the Battiad dynasty in Cyrene</History>
+    <Tooltip>.</Tooltip>
+    <Icon>units/cyrene/hero_arcesilaus_iv.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/cyrene/hero_cavalry_spearman_arcesilaus_iv_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_infantry_archer">
+  <Identity>
+    <Civ>batw</Civ>
+    <GenericName>Batwa Scout</GenericName>
+    <Icon>units/batw/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/batwa/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

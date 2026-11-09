@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/sonin/cavalry_javelineer_a">
+  <Identity>
+    <Civ>sonin</Civ>
+    <Icon>units/sonin/cavalry_javelinist_e.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/soninke/cavalry_javelinist_e_m.xml</Actor>
+  </VisualActor>
+</Entity>

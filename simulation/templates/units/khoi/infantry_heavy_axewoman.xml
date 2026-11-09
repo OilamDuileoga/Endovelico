@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_axeman">
+  <Identity>
+    <Civ>khoi</Civ>
+    <GenericName>Khoi Axewoman</GenericName>
+    <Icon>units/khoi/infantry_heavy_axewoman.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/khoisan/infantry_heavy_axewoman.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="texturea">
+      <mesh>props/heads/maya_f_head_l1.dae</mesh>
+      <textures>
+        <texture file="props/head/maya_f_q2.png" name="baseTex"/>
+        <texture file="props/head/maya_fem_b_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

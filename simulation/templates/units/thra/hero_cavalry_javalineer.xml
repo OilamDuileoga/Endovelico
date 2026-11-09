@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_javelineer">
+  <Identity>
+    <Civ>thra</Civ>
+    <GenericName>Sitalces</GenericName>
+    <SpecificName>Sitálkēs</SpecificName>
+    <Icon>units/thra/hero_sitalces.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thracians/hero_cavalry_javalinner_m.xml</Actor>
+  </VisualActor>
+</Entity>

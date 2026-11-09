@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="canoe_warship|template_unit_ship_warship_arrow">
+  <Footprint>
+    <Square width="8.0" depth="31.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>mapu</Civ>
+    <GenericName>War Canoe</GenericName>
+    <SpecificName>Wampo</SpecificName>
+    <Icon>units/mapu/ship_arrow.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/mapuches/canoe_war.xml</Actor>
+  </VisualActor>
+</Entity>

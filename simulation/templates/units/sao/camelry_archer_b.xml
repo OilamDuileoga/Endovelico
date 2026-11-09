@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|camelry|template_unit_cavalry_ranged_archer">
+  <Identity>
+    <Civ>sao</Civ>
+    <SelectionGroupName>units/sao/camelry_archer_b</SelectionGroupName>
+    <GenericName>Sahelian Camel Archer</GenericName>
+    <Icon>units/sao/camelry_archer.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/sao/camelry_archer_merc_m.xml</Actor>
+  </VisualActor>
+</Entity>

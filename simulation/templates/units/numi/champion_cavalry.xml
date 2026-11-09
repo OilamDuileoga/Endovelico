@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="rare_units|template_unit_champion_cavalry_spearman">
+  <Auras datatype="tokens">
+      units/inspiration
+  </Auras>
+  <Identity>
+    <Civ>numi</Civ>
+    <SpecificName>Imnayen n Ugellid</SpecificName>
+    <GenericName>Numidian Royal Cavalry</GenericName>
+    <Icon>units/numi/champion_cavalry.png</Icon>
+    <SelectionGroupName>units/numi/champion_cavalry</SelectionGroupName>
+    <Requirements>
+      <Techs datatype="tokens">phase_city -unlock_champion_cavalry</Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/numidians/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="builder|template_unit_support_female_citizen">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/khoi/allied_village_khoi
+      structures/khoi/allied_village_san
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>khoi</Civ>
+
+    <GenericName>Khoi Villager</GenericName>
+    <SpecificName>Taras</SpecificName>
+    <Icon>units/khoi/citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/khoisan/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

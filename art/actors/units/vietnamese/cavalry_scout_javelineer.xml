@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/pony.dae</mesh>
+      <props>
+        <prop actor="units/vietnamese/cavalry_scout_javelineer_r.xml" attachpoint="rider"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant file="quadraped/horse/pony_gray.xml" frequency="1" name="gray"/>
+  </group>
+  <group>
+    <variant file="quadraped/base_pony_chariot.xml"  name="Javelinist-Horse" frequency="1"/>
+    <variant file="quadraped/base_pony_gather_meat.xml" name="gather_meat">
+      <props>
+        <prop actor="units/vietnamese/cavalry_scout_javelineer_r.xml" attachpoint="rider_R"/>
+      </props>
+    </variant>
+  </group>
+  <material>no_trans_parallax_spec.xml</material>
+</actor>

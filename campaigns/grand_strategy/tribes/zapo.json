@@ -1,0 +1,10 @@
+{
+	"code": "zapo",
+	"name": "Zapotecs",
+	"civ": "zapo",
+	"color": "60 206 242",
+	"startProvinces": [
+		"michoacan",
+		"central_mexican_plateau"
+	]
+}

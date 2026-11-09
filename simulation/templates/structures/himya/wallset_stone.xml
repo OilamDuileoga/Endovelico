@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>himya</Civ>
+    <SpecificName></SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/himya/wall_tower</Tower>
+      <Gate>structures/himya/wall_gate</Gate>
+      <WallLong>structures/himya/wall_long</WallLong>
+      <WallMedium>structures/himya/wall_medium</WallMedium>
+      <WallShort>structures/himya/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+  </WallSet>
+</Entity>

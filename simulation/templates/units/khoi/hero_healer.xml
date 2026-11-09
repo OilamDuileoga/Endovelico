@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_healer">
+  <Identity>
+    <Civ>khoi</Civ>
+    <GenericName>Spirit Healer</GenericName>
+    <SpecificName>ǃGaiaob</SpecificName>
+    <Icon>units/khoi/hero_healer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/khoisan/hero_healer.xml</Actor>
+  </VisualActor>
+</Entity>

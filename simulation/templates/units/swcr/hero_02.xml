@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+
+  <Identity>
+    <Civ>swcr</Civ>
+    <GenericName>Great War Chief</GenericName>
+    <SpecificName>Tvstvnvke Rakko</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
+    <Icon>units/swcr/hero_02.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.2</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/swcreek/hero_02.xml</Actor>
+  </VisualActor>
+</Entity>

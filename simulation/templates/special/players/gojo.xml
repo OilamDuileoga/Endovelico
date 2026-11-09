@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>gojo</Civ>
+    <GenericName>Gojoseon</GenericName>
+    <History>Gojoseon, contemporary name Joseon, was the first kingdom on the Korean Peninsula. According to Korean mythology, the kingdom was established by the legendary king Dangun. Gojoseon possessed the most advanced culture in the Korean Peninsula at the time and was an important marker in the progression towards the more centralized states of later periods. The addition of Go, meaning "ancient", is used in historiography to distinguish the kingdom from the Joseon dynasty, founded in 1392 CE.</History>
+    <Icon>emblems/emblem_gojo.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

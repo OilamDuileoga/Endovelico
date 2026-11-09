@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+    <Auras datatype="tokens">
+        units/heroes/amerindian/great_admin_chief
+    </Auras>
+  <Identity>
+    <Civ>hisat</Civ>
+    <GenericName>War Chief</GenericName>
+    <SpecificName>Qaletaqmongwi</SpecificName>
+    <SelectionGroupName>units/hisat/hero_jaguar_king</SelectionGroupName>
+    <Icon>units/hisat/hero_warrior.png</Icon>
+  </Identity>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.5</WalkSpeed>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/hisatsinom/hero_01.xml</Actor>
+  </VisualActor>
+</Entity>

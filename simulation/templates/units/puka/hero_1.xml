@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_axeman">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/warrior_high_priest
+  </Auras>
+  <Identity>
+    <Civ>puka</Civ>
+    <GenericName>High Priest Lord</GenericName>
+    <SpecificName>Yatiri Mallku</SpecificName>
+    <History>A ruler associated with protecting monoliths, sacred platforms, and the political-religious centers of Pukará culture.</History>
+    <Icon>units/puka/hero_axeman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/pukara/hero_infantry_axeman.xml</Actor>
+  </VisualActor>
+</Entity>

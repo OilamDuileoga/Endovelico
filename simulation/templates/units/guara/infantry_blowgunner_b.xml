@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_blowgunner">
+  <Identity>
+    <Civ>guara</Civ>
+    <SelectionGroupName>units/guara/blowgunner</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Hunterblowgunner</VisibleClasses>
+    <GenericName>Blowgun Hunter</GenericName>
+    <Icon>units/guara/infantry_blowgunner.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/tupi/infantry_blowgunner_a</Entity>
+  </Promotion>
+  <TrainingRestrictions>
+    <Category>Hunterblowgunner</Category>
+  </TrainingRestrictions>
+  <VisualActor>
+    <Actor>units/guaranis/infantry_blowgunner_b.xml</Actor>
+  </VisualActor>
+</Entity>

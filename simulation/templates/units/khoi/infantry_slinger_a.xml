@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/khoi/infantry_slinger_b">
+  <Identity>
+    <Civ>khoi</Civ>
+    <Icon>units/khoi/infantry_slinger_a.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/khoi/infantry_slinger_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/khoisan/infantry_slinger_a.xml</Actor>
+  </VisualActor>
+</Entity>

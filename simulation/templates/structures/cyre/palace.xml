@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_palace">
+  <Identity>
+    <Civ>cyre</Civ>
+    <GenericName>Banquet Hall</GenericName>
+    <SpecificName>Hestiatórion</SpecificName>
+  </Identity>
+  <ProductionQueue/>
+  <Trainer>
+    <BatchTimeModifier>0.9</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/hero_arcesilaus_iv
+      units/{civ}/hero_eryxo
+      units/{civ}/hero_magas
+    </Entities>
+  </Trainer> 
+  <VisualActor>
+    <Actor>structures/cyrene/special.xml</Actor>
+  </VisualActor>
+</Entity>

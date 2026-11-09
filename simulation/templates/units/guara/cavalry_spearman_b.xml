@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_infantry_melee_maceman">
+  <Identity>
+    <Civ>guara</Civ>
+    <GenericName>Veteran Club Warrior</GenericName>
+    <SelectionGroupName>Heavy Maceman</SelectionGroupName>
+    <SpecificName></SpecificName>
+    <Icon>units/guara/cavalry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/guaranis/infantry_heavy_maceman.xml</Actor>
+  </VisualActor>
+</Entity>
+
+

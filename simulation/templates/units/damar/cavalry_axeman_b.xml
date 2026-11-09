@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_infantry_melee_axeman">
+  <Identity>
+    <Civ>damar</Civ>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/damar/cavalry_axeman_b</SelectionGroupName>
+    <GenericName>Damara Woman Warrior</GenericName>
+    <Icon>units/damar/cavalry_axeman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/damara/infantry_heavy_axewoman.xml</Actor>
+  </VisualActor>
+</Entity>

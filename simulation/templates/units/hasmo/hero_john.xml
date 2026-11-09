@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+    units/heroes/jude_hero_john
+  </Auras>
+  <Identity>
+    <Civ>hasmo</Civ>
+    <Lang>greek</Lang>
+    <GenericName>John Hyrcanus</GenericName>
+    <SpecificName>Yoḥanan Hurqanos</SpecificName>
+    <Icon>units/hasmo/hero_john.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hasmoneans/hero_john.xml</Actor>
+  </VisualActor>
+</Entity>

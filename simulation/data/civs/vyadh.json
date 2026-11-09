@@ -1,0 +1,76 @@
+﻿{
+    "Code": "vyadh",
+    "Culture":[ "vyadhapura"],
+    "Region": [
+        "Asia"
+    ],
+    "Music": [
+        {
+            "File": "An_old_Warhorse_goes_to_Pasture.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Land_between_the_two_Seas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Eastern_Dreams.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Karmic_Confluence.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Beyond_The_Indus.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/vyadh/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/vyadh/civil_centre"
+        },
+        {
+            "Template": "units/vyadh/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/vyadh/infantry_swordsman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/vyadh/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/vyadh/cavalry_archer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/vyadh/cavalry_scout"
+        }
+    ],
+    "AINames": [
+        "Hun Tien (Kaundinya I)",
+        "Liu Ye(Soma)",
+        "Fan Shih-Man",
+        "Fan Chin-Sheng",
+        "Fan Chan",
+        "Fan Hsiun",
+        "Xun Zhan",
+        "Zhu Zhutan"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/vyadh/cavalry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/vyadh/infantry_swordsman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/vyadh/infantry_archer_b",
+        "skirmish/units/default_ship_trireme": "units/vyadh/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

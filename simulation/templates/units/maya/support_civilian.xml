@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/maya/pyramid_large
+      structures/maya/observatory
+      structures/maya/embassy
+      structures/maya/temple_of_masks
+      structures/maya/range
+      structures/maya/palace
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>maya</Civ>
+    <SpecificName>ixik</SpecificName>
+    <GenericName>Maya Villager</GenericName>
+    <Icon>units/maya/citizen.png</Icon>
+    <SelectionGroupName>units/maya_protoclassic/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mayas/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

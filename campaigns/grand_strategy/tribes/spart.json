@@ -1,0 +1,9 @@
+{
+	"code": "spart",
+	"name": "Spartans",
+	"civ": "spart",
+	"color": "242 130 109",
+	"startProvinces": [
+		"peloponnese"
+	]
+}

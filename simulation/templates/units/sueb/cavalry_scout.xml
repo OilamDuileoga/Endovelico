@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_mount_swordsman">
+  <Identity>
+    <Civ>sueb</Civ>
+    <GenericName>Germanic Scout</GenericName>
+    <Icon>units/sueb/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/suebians/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

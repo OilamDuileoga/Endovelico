@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_infantry_blowgunner">
+  <Identity>
+    <Civ>maya</Civ>
+    <GenericName>Maya Scout</GenericName>
+    <Icon>units/maya/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mayas/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

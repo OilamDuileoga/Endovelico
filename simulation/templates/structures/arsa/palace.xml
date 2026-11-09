@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_palace">
+  <Identity>
+    <Civ>arsa</Civ>
+    <GenericName>Assembly Hall</GenericName>
+    <SpecificName>!</SpecificName>
+    <Classes datatype="tokens">CivSpecific</Classes>
+  </Identity>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/hero_arsaces
+      units/{civ}/hero_mitridates
+      units/{civ}/hero_tiridates
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/arsacid/assembly.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

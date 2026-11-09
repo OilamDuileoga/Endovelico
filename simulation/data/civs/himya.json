@@ -1,0 +1,80 @@
+{
+	"Code": "himya",
+	"Name": "Himyarite",
+	"Culture":[ "Arab"],
+    "Region": [
+        "Asia"
+    ],
+	"Music": [
+        {
+            "File": "Helen_Leaves_Sparta.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Peaks_of_Atlas.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Forging_a_City-State.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "The_Hellespont.ogg",
+            "Type": "peace"
+        }
+    ],
+	"CivBonuses":
+	[
+	],
+	"TeamBonuses":
+	[],
+	"WallSets": [
+		"structures/himya/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/himya/civil_centre"
+		},
+		{
+			"Template": "units/himya/support_civilian",
+			"Count": 4
+		},
+		{
+			"Template": "units/himya/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/himya/infantry_spearman_b",
+			"Count": 2
+		},
+        {
+            "Template": "units/himya/camelry_scout",
+            "Count": 1
+        }
+	],
+	"AINames": [
+		"Yada'il Bayyin I",
+		"Yatha'amar Watar I",
+		"Karib'il Watar II",
+		"Yada'ab I ",
+		"Haris ar-Raish",
+		"hammar Yuhar'ish",
+		"Shammar Yuhar'ish I",
+		"Yitha'amar Bayyin II",
+		"Zu-l-Adjar",
+		"Yasser yahsaqaq",
+		"Nuh Ifriqis",
+		"Africis",
+		"Nuh Ifriqis"
+
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}/house",
+    "skirmish/units/special_starting_unit": "units/himya/cavalry_javelineer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/himya/infantry_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/himya/infantry_spearman_b",
+	  "skirmish/units/default_ship_trireme":"units/{civ}/ship_arrow"
+	},
+	"SelectableInGameSetup": true
+}

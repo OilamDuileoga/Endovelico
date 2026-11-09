@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+    <Auras datatype="tokens">
+        units/heroes/amerindian/warrior_high_priest
+    </Auras>
+  <Identity>
+    <Civ>araw</Civ>
+    <GenericName>Chief Hatuey</GenericName>
+    <SpecificName>Kasike Hatuey</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
+    <Icon>units/araw/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/arawaks/hero_infantry_clubman.xml</Actor>
+  </VisualActor>
+</Entity>

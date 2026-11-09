@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint>
+    <Square width="20.0" depth="20.0"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>aden</Civ>
+    <GenericName>Barracks</GenericName>
+    <SpecificName></SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="19.5" depth="19.5"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      south_america/peabiru
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_archer_b
+      units/{civ}/infantry_slinger_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/adena/barracks.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_ranged_slinger">
+  <Identity>
+    <Civ>aksum</Civ>
+    <GenericName>Afar Slinger</GenericName>
+    <SelectionGroupName>Afar Slinger</SelectionGroupName>
+    <Icon>units/aksum/infantry_slinger_afar.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/aksumites/infantry_slinger_merc.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>dalm</Civ>
+    <GenericName>Dalmatia</GenericName>
+    <History>Dalmatia is a historical region located in modern-day Croatia and Montenegro, on the eastern shore of the Adriatic Sea. Through time it formed part of several historical states, most notably the Roman Empire, the Kingdom of Croatia, the Republic of Venice, the Austrian Empire, and presently the Republic of Croatia.</History>
+    <Icon>emblems/emblem_yayo.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

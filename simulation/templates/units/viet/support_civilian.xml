@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>viet</Civ>
+    <GenericName>Lac Viet Villager</GenericName>
+    <SpecificName>Lạc Dân</SpecificName>
+    <Icon>units/viet/citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/vietnamese/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

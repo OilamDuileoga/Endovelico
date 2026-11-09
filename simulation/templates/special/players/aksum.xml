@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <!-- <Auras datatype="tokens">
+    teambonuses/cart_player_teambonus
+  </Auras> -->
+  <Identity>
+    <Civ>aksum</Civ>
+    <GenericName>Aksumite</GenericName>
+    <History>The Aksumites (100 AD–940 AD) were an ancient Ethiopian civilizations. The D'mt (8th–5th century BC) preceded them in the same region, excelling in agriculture, ironwork, and South Arabian connections.</History>
+    <Icon>emblems/emblem_aksum.png</Icon>
+  </Identity>
+  <Player>
+    <!-- <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations> -->
+  </Player>
+</Entity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_javelineer">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>kwa</Civ>
+    <GenericName>Oduduwa, First King of Ife</GenericName>
+    <SpecificName>Odùduwà</SpecificName>
+    <Icon>units/kwa/hero_01.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kwa/hero_infantry_javelineer.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="chariot|template_unit_champion_cavalry_archer">
+  <Footprint replace="">
+    <Square width="5.0" depth="10.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>cyre</Civ>
+    <GenericName>Asbystae Chariot</GenericName>
+    <SpecificName>Hēníochos Asbýstēs</SpecificName>
+    <SelectionGroupName>units/cyre/champion_chariot</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
+    <Icon>units/cyre/champion_chariot.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/cyrene/chariot_javelinist_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

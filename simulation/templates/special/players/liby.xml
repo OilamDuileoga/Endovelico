@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>liby</Civ>
+    <GenericName>Libyans</GenericName>
+    <History>Berber-speaking tribes of North Africa west of Egypt. Garamantes dominated Sahara trade routes; Nasamones farmed coastal oases. Clashed with Carthaginians (6th c. BC), later allied with Rome against Numidia. Known for chariot warfare and desert agriculture.</History>
+    <Icon>emblems/emblem_libyans.png</Icon>
+  </Identity>
+</Entity>

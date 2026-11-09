@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Identity>
+    <Civ>viet</Civ>
+    <GenericName>Lac Viet Skirmisher</GenericName>
+    <SelectionGroupName>units/viet/infantry_javelineer_b</SelectionGroupName>
+    <SpecificName>Lính Phóng Lao</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <Icon>units/viet/infantry_javelineer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/viet/infantry_javelineer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/vietnamese/infantry_javelineer_b.xml</Actor>
+  </VisualActor>
+</Entity>

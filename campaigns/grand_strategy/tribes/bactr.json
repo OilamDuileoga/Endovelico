@@ -1,0 +1,9 @@
+{
+	"code": "bactr",
+	"name": "Greco-Bactrian Kingdom",
+	"civ": "bactr",
+	"color": "231 242 109",
+	"startProvinces": [
+		"bactria"
+	]
+}

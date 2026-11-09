@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_javelineer">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/wise_high_priest
+  </Auras>
+  <Identity>
+    <Civ>puka</Civ>
+    <GenericName>Sun Priest-King</GenericName>
+    <SpecificName>Apu Mallku</SpecificName>
+    <History>Supreme religious ruler of the Pukará ceremonial centers, responsible for solar rituals and spiritual authority over society.</History>
+    <Icon>units/puka/hero_javelinist.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/pukara/hero_infantry_javelinist.xml</Actor>
+  </VisualActor>
+</Entity>

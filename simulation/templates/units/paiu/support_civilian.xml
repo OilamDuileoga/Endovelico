@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>paiu</Civ>
+    <GenericName>Paiute Villager</GenericName>
+    <SpecificName>Nümü</SpecificName>
+    <Icon>units/paiu/citizen.png</Icon>
+    <SelectionGroupName>units/paiu/support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/paiute/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

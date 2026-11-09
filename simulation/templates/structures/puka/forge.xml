@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="workshop|template_structure_military_forge">
+  <Identity>
+    <Civ>puka</Civ>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/pukara/blacksmith.xml</Actor>
+  </VisualActor>
+</Entity>

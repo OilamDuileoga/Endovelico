@@ -1,0 +1,13 @@
+<Entity parent="template_unit_champion_cavalry_spearman">
+  <Identity>
+    <Civ>daci</Civ>
+    <GenericName>Dacian Royal Cavalry</GenericName>
+    <SpecificName>Tarabostes</SpecificName>
+
+    <Icon>units/thra/champion_cavalry_spearman.png</Icon>
+    <SelectionGroupName>units/daci/champion_cavalry</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thracians/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

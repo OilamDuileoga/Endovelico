@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="war_hut|template_structure_military_stable">
+  <Identity>
+    <Civ>anish</Civ>
+    <GenericName>War Hut</GenericName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/anishinaabe/sawgee.xml</Actor>
+    <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
+  </VisualActor>
+</Entity>

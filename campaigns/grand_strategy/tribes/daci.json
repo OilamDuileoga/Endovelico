@@ -1,0 +1,10 @@
+{
+	"code": "daci",
+	"name": "Dacians",
+	"civ": "daci",
+	"color": "143 60 242",
+	"startProvinces": [
+		"dacia",
+		"bohemia"
+	]
+}

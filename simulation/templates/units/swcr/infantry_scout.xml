@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_infantry_axeman">
+  <Identity>
+    <Civ>swcr</Civ>
+    <GenericName>Swift Creek Scout</GenericName>
+    <SpecificName>Sakima Haya</SpecificName>
+    <Icon>units/swcr/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/swcreek/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

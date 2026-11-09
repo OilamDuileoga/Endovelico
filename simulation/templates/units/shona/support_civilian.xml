@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Builder>
+    <Entities datatype="tokens">
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>shona</Civ>
+    <GenericName>Shona Villager</GenericName>
+    <SpecificName>Mukadzi</SpecificName>
+    <Icon>units/shona/support_civilian.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/shona/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_infantry_spearman">
+  <Identity>
+    <Civ>hisat</Civ>
+    <GenericName>Hisatsinom Scout</GenericName>
+    <Icon>units/hisat/infantry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hisatsinom/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

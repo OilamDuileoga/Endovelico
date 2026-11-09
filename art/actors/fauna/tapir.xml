@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="tapir">
+<!--       <animations>
+        <animation file="quadraped/animal_tapir_idle_01.dae" name="run" speed="10"/>
+        <animation file="quadraped/animal_tapir_walk_01.dae" name="Walk" speed="3"/>
+        <animation file="quadraped/animal_tapir_idle_01.dae" name="Idle" speed="30"/>
+      </animations>
+ -->       <mesh>skeletal/tapir.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Black">
+      <textures>
+        <texture file="skeletal/animal_tapir_black_and_white.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+	    <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>no_trans_norm_spec.xml</material>
+</actor>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_axeman">
+  <Identity>
+    <Civ>illy</Civ>
+    <GenericName>Illyrian Axe Champion</GenericName>
+    <SelectionGroupName>infantry_axe_c</SelectionGroupName>
+    <SpecificName></SpecificName>
+    <Icon>units/illy/champion_infantry_axe.png</Icon>
+    <Phenotype>female</Phenotype>
+  </Identity>
+  <Upgrade>
+    <spear>
+      <Entity>units/illy/champion_infantry_javalineer</Entity>
+      <Tooltip>Switch to using a javelineer.</Tooltip>
+      <Variant>upgrading</Variant>
+      <Time>5</Time>
+    </spear>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/illyrians/infantry_swordswoman.xml</Actor>
+  </VisualActor>
+</Entity>
+
+

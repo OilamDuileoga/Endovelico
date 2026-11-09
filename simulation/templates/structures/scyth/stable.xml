@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_stable">
+  <BuildRestrictions>
+    <Territory>own neutral ally enemy</Territory>
+  </BuildRestrictions>
+  <Footprint>
+    <Square width="26.5" depth="24.5"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>scyth</Civ>
+    <Tooltip>Train cavalry soldiers. Raise herd animals for food. Research improvements for cavalry and ranching. </Tooltip>
+  </Identity>
+  <Obstruction>
+    <Static width="26.0" depth="24.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      <!--upgrade_rank_advanced_cavalry_spearman
+      upgrade_rank_elite_cavalry_spearman
+      upgrade_rank_advanced_cavalry_archer
+      upgrade_rank_elite_cavalry_archer
+      upgrade_rank_advanced_cavalry_axeman
+      upgrade_rank_elite_cavalry_axeman-->
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/maiden_cavalry_archer
+    </Entities>
+  </Trainer>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/scythians/stable.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

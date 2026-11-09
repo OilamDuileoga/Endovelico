@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Identity>
+    <Civ>kartl</Civ>
+    <GenericName>Kartlian Villager</GenericName>
+    <SpecificName>Glexi</SpecificName>
+    <Icon>units/kartl/citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kartlians/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

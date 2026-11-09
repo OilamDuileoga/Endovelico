@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="ox_riding|template_unit_cavalry_melee_scout">
+  <Identity>
+    <Civ>khoi</Civ>
+    <GenericName>Khoi Ox-Rider Scout</GenericName>
+    <Icon>units/khoi/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/khoisan/cavalry_scout_r.xml</Actor>
+  </VisualActor>
+</Entity>

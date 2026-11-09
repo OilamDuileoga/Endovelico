@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="scout_mount_swordsman">
+  <Identity>
+    <Civ>nok</Civ>
+    <GenericName>Nok Scout</GenericName>
+    <Icon>units/nok/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/nok/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

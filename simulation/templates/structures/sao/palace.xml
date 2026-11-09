@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_palace">
+  <Identity>
+    <Civ>sao</Civ>
+    <GenericName>Palace</GenericName>
+    <SpecificName>!</SpecificName>
+    <Classes datatype="tokens">CivSpecific</Classes>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_infantry_spearman
+      units/{civ}/hero_01
+      units/{civ}/hero_02
+      units/{civ}/hero_03
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/sao/palace.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

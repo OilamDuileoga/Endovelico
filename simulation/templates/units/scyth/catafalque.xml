@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_catafalque">
+  <Identity>
+    <Civ>scyth</Civ>
+    <GenericName>Scythian Catafalque</GenericName>
+    <SpecificName>Anacharsis</SpecificName>
+  </Identity>
+</Entity>

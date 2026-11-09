@@ -1,0 +1,15 @@
+<Entity parent="template_unit_infantry_ranged_javelineer">
+  <Identity>
+    <Civ>daci</Civ>
+    <SelectionGroupName>units/daci/infantry_javelineer_b</SelectionGroupName>
+    <GenericName>Dacian Skirmisher</GenericName>
+
+    <Icon>units/thra/infantry_javelineer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/daci/infantry_javelineer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/thracians/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

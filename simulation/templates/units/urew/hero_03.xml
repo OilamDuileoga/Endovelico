@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_healer">
+    <Auras datatype="tokens">
+        units/heroes/sub-saharan/kings_council
+    </Auras>
+  <Identity>
+    <Civ>urew</Civ>
+    <GenericName>Ryangombe the Diviner</GenericName>
+    <SpecificName>Ryangombe</SpecificName>
+    <Icon>units/urew/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/urewe/hero_healer.xml</Actor>
+  </VisualActor>
+</Entity>

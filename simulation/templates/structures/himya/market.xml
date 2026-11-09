@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Identity>
+    <Civ>himya</Civ>
+    <SpecificName></SpecificName>
+  </Identity>
+  <Researcher>
+    <Technologies datatype="tokens">
+      himyar/caravans_of_incense
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/himyar/market.xml</Actor>
+  </VisualActor>
+</Entity>

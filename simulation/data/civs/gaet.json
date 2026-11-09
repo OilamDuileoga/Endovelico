@@ -1,0 +1,77 @@
+﻿{
+    "Code": "gaet",
+    "Culture":[ "Berber"],
+    "Region": [
+        "Africa"
+    ],
+	"Music": [
+		{
+			"File": "Mediterranean_Waves.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harsh_Lands_Rugged_People.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Peaks_of_Atlas.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "From_Every_Corner.ogg",
+			"Type": "peace"
+		}
+	],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/gaet/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/gaet/civil_centre"
+        },
+        {
+            "Template": "units/gaet/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/gaet/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/gaet/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/gaet/cavalry_javelineer_b",
+            "Count": 1
+        },
+        {
+            "Template": "units/gaet/chariot_scout",
+            "Count": 1
+        }
+    ],
+    "AINames": [
+        "Isalca",
+        "Acherras",
+        "Iarbas",
+        "Aco",
+        "Mazippa",
+        "Aedemon",
+        "Narravas",
+        "Muttines",
+        "Tacfarinas",
+        "Ascalis",
+        "Mazucan" 
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/gaet/chariot_scout",
+        "skirmish/units/default_infantry_melee_b": "units/gaet/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/gaet/infantry_archer_b",
+        "skirmish/units/default_cavalry_ranged_b": "units/gaet/cavalry_javelineer_b",
+        "skirmish/units/default_ship_trireme": "units/gaet/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

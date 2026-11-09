@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="ox_riding|template_unit_hero_cavalry_javelineer">
+    <Auras datatype="tokens">
+      units/heroes/sub-saharan/kings_council
+    </Auras>
+  <Identity>
+    <Civ>damar</Civ>
+    <GenericName>Great Queen</GenericName>
+    <SpecificName>Gaos</SpecificName>
+	<Phenotype>female</Phenotype>
+    <Icon>units/damar/hero_02.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/damara/hero_archer_m.xml</Actor>
+  </VisualActor>
+</Entity>

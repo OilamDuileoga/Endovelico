@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Footprint replace="">
+    <Circle radius="18.0"/>
+    <Height>18.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>anish</Civ>
+    <SpecificName>Gichi-dibendaagoziwigamig</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="25.5" depth="25.5"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_axeman_b
+      units/{civ}/infantry_archer_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/anishinaabe/civic_center.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_medium">
+  <Footprint>
+    <Square width="18.6" depth="6"/>
+    <Height>12.6</Height>
+  </Footprint>
+  <Identity>
+    <Civ>batw</Civ>
+    <SpecificName>!</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="7.0" depth="18.6"/>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>13.6</HeightOffset>
+  </StatusBars>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+        <X>1.5</X>
+        <Y>7</Y>
+        <Z>0</Z>
+      </One>
+      <Two>
+        <X>-1.5</X>
+        <Y>7</Y>
+        <Z>0</Z>
+      </Two>
+      <Three>
+        <X>4.5</X>
+        <Y>7</Y>
+        <Z>0</Z>
+      </Three>
+      <Four>
+        <X>-4.5</X>
+        <Y>7</Y>
+        <Z>0</Z>
+      </Four>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/batwa/wall_medium.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>18.6</Length>
+  </WallPiece>
+</Entity>

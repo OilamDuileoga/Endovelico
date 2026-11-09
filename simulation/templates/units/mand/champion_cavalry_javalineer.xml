@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_javelineer">
+  <Identity>
+    <Civ>mand</Civ>
+    <GenericName>Mande Lord</GenericName>
+    <SpecificName>Tontigi</SpecificName>
+    <Icon>units/mand/champion_cavalry_javalineer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mande/cavalry_javelinist_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

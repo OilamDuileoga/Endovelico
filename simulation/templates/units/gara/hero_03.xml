@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="camelry|template_unit_hero_cavalry_spearman">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>gara</Civ>
+    <GenericName>Desert Chieftain</GenericName>
+    <SpecificName>Amɣar</SpecificName>
+    <Icon>units/gara/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/garamantians/hero_camelry_spearman_m.xml</Actor>
+  </VisualActor>
+</Entity>

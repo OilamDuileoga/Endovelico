@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_spearman">
+  <Attack>
+    <Melee>
+      <MaxRange>6.0</MaxRange>
+    </Melee>
+  </Attack>
+  <Identity>
+    <Civ>epir</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Royal Guard Cavalry</GenericName>
+    <SpecificName>Hippeús Basilikós</SpecificName>
+    <Icon>units/epir/champion_cavalry.png</Icon>
+    <SelectionGroupName>units/epir/champion_cavalry</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macedonians/cavalry_spearman_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+  <Auras datatype="tokens">
+    units/heroes/amerindian/warrior_high_priest
+  </Auras>
+  <Identity>
+    <Civ>tupi</Civ>
+    <GenericName>Chief Tibiriçá</GenericName>
+    <SpecificName>Morubixaba Tebyreçá</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/tupi/hero_rain_lord</SelectionGroupName>
+    <Icon>units/tupi/hero_clubman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/tupis/hero_infantry_clubman.xml</Actor>
+  </VisualActor>
+</Entity>

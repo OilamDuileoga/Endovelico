@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="infantry_cavalry|template_unit_cavalry_ranged_javelineer">
+  <Identity>
+    <Civ>araw</Civ>
+    <Rank>Advanced</Rank>
+    <SelectionGroupName>units/araw/heavy_javelineer</SelectionGroupName>
+    <GenericName>Nitaíno Javelineer</GenericName>
+    <Icon>units/araw/cavalry_javelineer.png</Icon>
+    <Classes datatype="tokens">Human FastMoving CitizenSoldier</Classes>
+    <VisibleClasses datatype="tokens">Citizen Soldier -Cavalry</VisibleClasses>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/arawaks/infantry_heavy_javelinist.xml</Actor>
+  </VisualActor>
+</Entity>

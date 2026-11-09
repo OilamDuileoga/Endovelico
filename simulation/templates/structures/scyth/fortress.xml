@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <BuildRestrictions>
+    <Territory>own neutral ally</Territory>
+  </BuildRestrictions>
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+    <Height>12.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>scyth</Civ>
+    <GenericName>Fortified Settlement</GenericName>
+    <SpecificName>!</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="27.5" depth="27.5"/>
+  </Obstruction>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_cavalry
+      units/{civ}/champion_cavalry_archer
+      units/{civ}/siege_ram
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/scythians/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>28.0</Length>
+    <Indent>6.4</Indent>
+  </WallPiece>
+</Entity>

@@ -1,0 +1,23 @@
+{
+  "genericName": "Wikiup",
+  "description": "Light structures cost less.",
+  "cost": {
+    "food": 200,
+    "wood": 250
+  },
+  "requirements": {
+    "tech": "phase_town"
+  },
+  "requirementsTooltip": "Unlocked in Town Phase.",
+  "icon": "default.png",
+  "researchTime": 40,
+  "tooltip": "[font=\"sans-bold-14\"]\u2022 -20% wood cost[/font]",
+  "modifications": [
+    {"value": "Cost/Resources/wood","multiply": 0.8},
+    { "value": "Cost/BuildTime", "multiply": 0.8}
+  ],
+  "affects": [
+    "Structure"
+  ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

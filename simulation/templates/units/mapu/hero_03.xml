@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+    <Auras datatype="tokens">
+      units/heroes/amerindian/great_war_chief
+    </Auras>
+  <Identity>
+    <Civ>mapu</Civ>
+    <GenericName>Lautaro, War Toqui</GenericName>
+    <SpecificName>Leftraru</SpecificName>
+    <History>Great Toqui / Military and Administration basic Bonus</History>
+    <SelectionGroupName>units/mapu/hero_03</SelectionGroupName>
+    <Icon>units/mapu/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mapuches/hero_03.xml</Actor>
+  </VisualActor>
+</Entity>

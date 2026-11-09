@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_maceman">
+
+  <Identity>
+    <Civ>swcr</Civ>
+    <GenericName>Beloved Elder</GenericName>
+    <SpecificName>Henehv</SpecificName>
+    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SelectionGroupName>units/zapo/hero_rain_lord</SelectionGroupName>
+    <Icon>units/swcr/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/swcreek/hero_03.xml</Actor>
+  </VisualActor>
+</Entity>

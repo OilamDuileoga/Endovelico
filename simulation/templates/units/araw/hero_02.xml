@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+    <Auras datatype="tokens">
+        units/heroes/amerindian/great_war_chief
+    </Auras>
+  <Identity>
+    <Civ>araw</Civ>
+    <GenericName>Chief Caonabo</GenericName>
+    <SpecificName>Kasike Caonabó</SpecificName>
+    <SelectionGroupName>units/zapo/hero_night_king</SelectionGroupName>
+    <Icon>units/araw/hero_02.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/arawaks/hero_infantry_archer.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,30 @@
+{
+	"genericName": "Peaberu",
+	"specificName": {
+		"guara": "Apé",
+		"araw": "Apé",
+		"tupi": "Apé"
+	},
+	"description": "Trails created over long distances to connect allied tribes, migrations and exchanges.",
+	"cost": {
+		"wood": 200,
+		"stone": 100
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" },
+			{
+				"civ": "tupi"
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "clenched_fist.png",
+	"researchTime": 40,
+	"tooltip": "Soldiers, Siege Engines, and Ships +20% speed.",
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.2 }
+ 	],
+	"affects": ["Siege", "Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

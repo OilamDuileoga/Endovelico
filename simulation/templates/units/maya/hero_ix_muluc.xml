@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_axeman">
+  <Auras datatype="tokens">
+    units/maya/heroes/ix_mulu
+  </Auras>
+  <Identity>
+    <Civ>maya</Civ>
+    <GenericName>Lady Muluc</GenericName>
+    <SpecificName>Ix Muluk</SpecificName>
+    <Phenotype>female</Phenotype>
+    <Icon>units/maya/hero_ix_muluc.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/mayas/hero_ix_muluc.xml</Actor>
+  </VisualActor>
+</Entity>

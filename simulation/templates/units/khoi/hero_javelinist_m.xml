@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Identity>
+    <Civ>khoi</Civ>
+    <GenericName>Heitsi-eibib the Hunter</GenericName>
+    <SpecificName>Heitsi-eibib</SpecificName>
+    <Icon>units/khoi/hero_javelinist_m.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/khoisan/hero_archer_m.xml</Actor>
+  </VisualActor>
+</Entity>

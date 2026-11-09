@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>gojo</Civ>
+    <GenericName>Ring-Pommel Sword Champion</GenericName>
+    <SpecificName>Hwan-du Dae-do-sa</SpecificName>
+    <Icon>units/yayo/champion_infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_infantry
+      </Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/koreans/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

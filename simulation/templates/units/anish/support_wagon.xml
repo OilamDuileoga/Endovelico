@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_wagon">
+  <Identity>
+    <Civ>anish</Civ>
+    <GenericName>Dog Travois</GenericName>
+  </Identity>
+  <Upgrade>
+    <UnPackHouse>
+      <Entity>structures/anish/house</Entity>
+      <Time>10</Time>
+      <Tooltip>Unpack this Dog Travois to set up a new house at its location.</Tooltip>
+      <CheckPlacementRestrictions/>
+    </UnPackHouse>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/anishinaabe/trader_h.xml</Actor>
+  </VisualActor>
+</Entity>

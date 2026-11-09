@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_cavalry_javelineer">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>macrob</Civ>
+    <Phenotype>female</Phenotype>
+    <GenericName>Queen Haramaanyo</GenericName>
+    <SpecificName>Boqorad Haramaanyo</SpecificName>
+    <Icon>units/macrob/hero_01.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/macrobia/hero_javelinist_m.xml</Actor>
+  </VisualActor>
+</Entity>

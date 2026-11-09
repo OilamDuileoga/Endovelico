@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>kwa</Civ>
+    <GenericName>Oranmiyan the Warrior Prince</GenericName>
+    <SpecificName>Ọ̀rànmíyàn</SpecificName>
+    <Icon>units/kwa/hero_03.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/kwa/hero_infantry_spearman.xml</Actor>
+  </VisualActor>
+</Entity>

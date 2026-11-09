@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="rare_units|scout_mount_swordsman">
+  <Identity>
+    <Civ>viet</Civ>
+    <GenericName>Lac Viet Scout</GenericName>
+    <SpecificName>Kỵ Sĩ Trinh Sát</SpecificName>
+    <Icon>units/viet/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/vietnamese/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Identity>
+    <Civ>pamp</Civ>
+  </Identity>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      pampidos/semi-nomad
+    </Technologies>
+  </Researcher>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/cavalry_archer_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/pampas/civic_center.xml</Actor>
+  </VisualActor>
+</Entity>

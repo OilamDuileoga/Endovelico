@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Identity>
+    <Civ>numi</Civ>
+    <SelectionGroupName>units/numi/infantry_archer_b</SelectionGroupName>
+    <GenericName>Numidian Archer</GenericName>
+    <Icon>units/numi/infantry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/numi/infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/numidians/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

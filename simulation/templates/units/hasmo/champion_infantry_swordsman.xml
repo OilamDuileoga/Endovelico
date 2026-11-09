@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Identity>
+    <Civ>hasmo</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Judean Royal Guard</GenericName>
+    <SpecificName>Gibbor Ḥayil</SpecificName>
+
+    <Icon>units/hasmo/champion_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">
+        -phase_city
+        unlock_champion_infantry
+      </Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hasmoneans/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

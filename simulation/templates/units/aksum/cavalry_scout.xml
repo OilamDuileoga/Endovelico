@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity parent="scout_mount_javelineer">
+  <Identity>
+    <Civ>aksum</Civ>
+    <GenericName>Aksumite Scout</GenericName>
+    <Icon>units/aksum/cavalry_scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/aksumites/cavalry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

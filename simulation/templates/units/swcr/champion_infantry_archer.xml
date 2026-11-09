@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_archer">
+  <Identity>
+  <Civ>swcr</Civ>
+    <GenericName>Swift Creek Great Archer</GenericName>
+    <SpecificName>Kowi</SpecificName>
+    <Icon>units/swcr/champion_infantry_archer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/swcreek/infantry_champion_archer.xml</Actor>
+  </VisualActor>
+</Entity>

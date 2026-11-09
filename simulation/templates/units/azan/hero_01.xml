@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_javelineer">
+  <Auras datatype="tokens">
+  </Auras>
+  <Identity>
+    <Civ>azan</Civ>
+    <GenericName>King of Rhapta</GenericName>
+    <SpecificName>Mfalme wa Rhapta</SpecificName>
+    <Icon>units/azan/hero_01.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/azania/hero_infantry_javelineer.xml</Actor>
+  </VisualActor>
+</Entity>

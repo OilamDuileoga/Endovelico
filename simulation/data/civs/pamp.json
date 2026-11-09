@@ -1,0 +1,59 @@
+﻿{
+    "Code": "pamp",
+    "Culture":[ "Pampidos"],
+    "Region": [
+        "America"
+    ],
+    "Music": [
+        {
+            "File": "red_dawn.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "hill_of_sorrows.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "TeamBonuses": [],
+    "WallSets": [
+        "structures/wallset_palisade",
+        "structures/pamp/wallset_stone"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/pamp/civil_centre"
+        },
+        {
+            "Template": "units/pamp/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/pamp/infantry_spearman_b",
+            "Count": 3
+        },
+        {
+            "Template": "units/pamp/infantry_javelineer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/pamp/support_civilian",
+            "Count": 1
+        },
+        {
+            "Template": "units/pamp/infantry_scout"
+        }
+    ],
+    "AINames": [
+        "01",
+        "02"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/pamp/infantry_scout",
+        "skirmish/units/default_infantry_melee_b": "units/pamp/infantry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/pamp/infantry_javelineer_b",
+        "skirmish/units/special_starting_unit": "units/pamp/support_civilian",
+        "skirmish/units/default_ship_trireme": "units/pamp/ship_bireme"
+    },
+    "SelectableInGameSetup": true
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_spearman">
+  <Identity>
+    <Civ>numi</Civ>
+    <GenericName>Numidian Noble Lancer</GenericName>
+    <Icon>units/numi/champion_cavalry_spearman.png</Icon>
+    <SelectionGroupName>units/numi/champion_cavalry</SelectionGroupName>
+    <Requirements>
+      <Techs datatype="tokens">
+        phase_city
+        -unlock_champion_cavalry</Techs>
+    </Requirements>
+  </Identity>
+  <VisualActor>
+    <Actor>units/numidians/cavalry_spearman_c2_m.xml</Actor>
+  </VisualActor>
+</Entity>

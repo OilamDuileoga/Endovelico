@@ -1,0 +1,19 @@
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Identity>
+    <Civ>batw</Civ>
+
+    <SelectionGroupName>units/batw/infantry_spearman_b</SelectionGroupName>
+    <GenericName>Batwa Spearman</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/batw/infantry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/batw/infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/batwa/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

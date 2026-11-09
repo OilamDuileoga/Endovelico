@@ -1,0 +1,17 @@
+{
+	"genericName": "Female Succession",
+	"description": "Women of the Maya were allowed to succeed to power or land ownership if their husbands died without a male heir.",
+	"cost": {
+		"food": 200
+	},
+	"requirements": { "tech": "phase_village" },
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "female_succession.png",
+	"researchTime": 40,
+	"tooltip": "Female Citizens +100% health.",
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 2 }
+	],
+	"affects": ["FemaleCitizen"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

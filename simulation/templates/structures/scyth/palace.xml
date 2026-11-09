@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special_palace">
+  <Identity>
+    <Civ>scyth</Civ>
+    <GenericName>Royal House</GenericName>
+    <Classes datatype="tokens">CivSpecific</Classes>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/hero_tomyris_mounted
+      units/{civ}/hero_skilurus_mounted
+      units/{civ}/hero_ateas_mounted
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/scythians/palace.xml</Actor>
+    <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
+  </VisualActor>
+</Entity>

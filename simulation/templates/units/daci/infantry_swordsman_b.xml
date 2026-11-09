@@ -1,0 +1,15 @@
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Identity>
+    <Civ>daci</Civ>
+    <SelectionGroupName>units/daci/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Dacian Swordsman</GenericName>
+
+    <Icon>units/thra/infantry_swordsman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/daci/infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/thracians/infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

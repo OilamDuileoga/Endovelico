@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Auras disable=""/>
+  <BuildRestrictions>
+    <Territory>own neutral ally</Territory>
+    <Distance>
+      <MinDistance>80</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Footprint replace="">
+    <Circle radius="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>scyth</Civ>
+    <Lang>mandarin</Lang>
+    <GenericName>Royal Encampment</GenericName>
+    <SpecificName>!</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>0.0001</TurnRate>
+  </Position>
+  <TerritoryDecay disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_archer_b
+      units/{civ}/cavalry_archer_b
+      units/scyth/support_wagon
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <Unpack>
+      <Entity>structures/scyth/civil_centre_packed</Entity>
+      <Time>30</Time>
+      <Requirements>
+        <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
+    </Unpack>
+  </Upgrade>
+  <TerritoryInfluence>
+    <Radius>80</Radius>
+  </TerritoryInfluence>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/scythians/royal_yurt_chariot_unpacked.xml</Actor>
+    <FoundationActor>structures/fndn_7x7_round.xml</FoundationActor>
+  </VisualActor>
+</Entity>

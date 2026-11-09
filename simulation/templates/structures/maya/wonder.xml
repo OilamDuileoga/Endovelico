@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_wonder">
+  <Footprint replace="">
+    <Square width="50.0" depth="52.0"/>
+    <Height>24</Height>
+  </Footprint>
+  <Identity>
+    <Civ>maya</Civ>
+    <SpecificName>Noj witz</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="49.5" depth="51.5"/>
+  </Obstruction>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.6</BarHeight>
+    <HeightOffset>12.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/mayas/wonder.xml</Actor>
+    <FoundationActor>structures/fndn_12x12.xml</FoundationActor>
+  </VisualActor>
+</Entity>

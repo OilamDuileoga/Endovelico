@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_elephant_melee">
+  <Identity>
+    <Civ>viet</Civ>
+    <GenericName>Trung Nhi</GenericName>
+    <SpecificName>Trưng Nhị</SpecificName>
+    <Icon>units/viet/hero_trung_02.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/vietnamese/hero_elephant_princess_trung_02_m.xml</Actor>
+  </VisualActor>
+</Entity>

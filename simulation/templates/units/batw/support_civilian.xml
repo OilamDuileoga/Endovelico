@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_civilian">
+  <Builder>
+    <Entities datatype="tokens">
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>batw</Civ>
+
+    <GenericName>Batwa Villager</GenericName>
+    <Icon>units/batw/citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/batwa/citizen_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>

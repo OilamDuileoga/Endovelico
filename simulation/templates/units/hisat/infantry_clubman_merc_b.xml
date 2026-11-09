@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_melee_maceman">
+  <Identity>
+    <Civ>hisat</Civ>
+    <GenericName>Allied Clubman</GenericName>
+    <SelectionGroupName>units/hisat/infantry_maceman_merc</SelectionGroupName>
+    <Icon>units/hisat/infantry_clubman_merc.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/hisat/infantry_clubman_merc_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/hisatsinom/infantry_clubman_merc.xml</Actor>
+  </VisualActor>
+</Entity>

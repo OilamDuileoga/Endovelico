@@ -1,0 +1,11 @@
+<Entity parent="units/viet/infantry_swordsman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/gojo/infantry_swordsman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/vietnamese/infantry_swordsman_a.xml</Actor>
+  </VisualActor>
+</Entity>
